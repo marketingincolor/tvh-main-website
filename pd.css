@@ -1,0 +1,54 @@
+body {
+  background-color: #fdfcf8;
+}
+#smnav{
+  float:right;
+  padding: 20px 0px 0px 0px;
+  width:240px;
+}
+.docnames{
+  font-family:"Times New Roman", Times, serif;
+  font-size:20px;
+  color:#004812;
+  text-align:left;
+  font-weight:bold;
+  letter-spacing:0.6px;
+}
+.quote{
+  font-family:"Times New Roman", Times, serif;
+  font-size:19px;
+  color:#5c4f3c;
+  text-align:left;
+  line-height: 25px;
+  }
+  .dir{
+  font-family:"Times New Roman", Times, serif;
+  font-size:16px;
+  color:#004812;
+  text-align:left;
+  line-height: 22px;
+  font-style:italic;
+}
+
+.bolders a {
+  font-weight:bolder;
+  font-size:1.2em;
+  text-decoration:underline !important;
+  line-height:35px;
+}
+
+.bolders ul li {
+  padding:0 0 15px !important;
+}
+
+.bolders ul {
+  list-style-type:none;
+}
+
+.bolders ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #5c4f3c;
+    text-align: left;
+    line-height: 22px;
+}

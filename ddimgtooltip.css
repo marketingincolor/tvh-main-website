@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.ddimgtooltip{
+border-radius: 0px 3px 3px 0px;
+display:none;
+position:absolute;
+color: black;
+z-index:2000;
+padding: 4px;
+}

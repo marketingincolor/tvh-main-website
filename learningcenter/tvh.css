@@ -1,0 +1,431 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#topnav{
+	width: 550px;
+	text-align: right;
+	padding-left: 550px;
+/*	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	background-position: -2px 40px;*/
+	height: 95px;
+}
+#logo{
+	width: 450px;
+	background-image:url(images/logo.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	height: 58px;
+	margin: 0px 0px 0px 70px;
+}
+#wrapper{
+	width: 1160px;
+	margin:auto;
+	height:100%;
+}
+#nav{
+	width: 1160px;
+	margin:auto;
+	height:100%;
+}
+#warning{
+	width:350px;
+	background-color:#F00;
+	padding: 4px 10px 4px 10px;
+	}
+
+#homewrapper{
+	width: 1160px;
+	margin:auto;
+	height:100%;
+	z-index: 1;
+	padding-top: 20px;
+}
+#slideshow{
+	width:631px;
+	height:340px;
+}
+#greenbopybox{
+	width:399px;
+	height:300px;
+	float:right;
+	background-color: #004812;
+	padding: 30px 80px 0px 50px;
+}
+#hmwrp{
+	width:1160px;
+	margin:auto;
+	height:350px;
+	padding-top: 18px;
+	background-color: #f1ede5;
+	box-shadow: 3px 3px 3px #999;
+	background-image: url(images/vert_lines.png);
+	background-repeat: no-repeat;
+	background-position: 350px;
+	}
+#lchome{
+	float:left;
+	width: 300px;
+	height:300px;
+	padding:20px 40px 20px 30px;
+	}
+#whitepaper{
+	float:left;
+	width: 287px;
+	height:300px;
+	padding:10px 40px 20px 30px;
+	}
+#hmvideo{
+	float:left;
+	width: 420px;
+	padding-top: 4px;
+	}
+#htour{
+	float:left;
+	width: 578px;
+	height:100%;
+	padding:20px 0px 20px 0px;
+	}
+#content{
+	width:980px;
+	margin:auto;
+	margin-bottom: 30px;
+	height: 100%;
+	padding-top: 20px;
+}
+#about{
+	width:780px;
+	margin:auto;
+	margin-bottom: 25px;
+	padding-top: 20px;
+	height: 100%;
+}
+#thevillages{
+	width:1160px;
+	height:45px;
+	background-color:#a69987;
+	margin: auto;
+	padding-top:10px;
+}
+#footerwrap{
+	height:100%;
+	background-color:#f1ede7;
+	width:1140px;
+	bottom:0;
+	margin: auto;
+	padding: 10px 10px 25px 10px;
+}
+#footernav{
+	width:1160px;
+	margin:auto;
+	height: 100%;
+}
+#tour{
+	width:343px;
+	height:180px;
+	background-image:url(images/photo_show.jpg);
+	background-repeat:no-repeat;
+	padding-top:65px;
+	padding-left: 35px;
+}
+#formcont{
+	width:800px;
+	height:1160px;
+	margin:auto;
+	padding-left:50px;
+	padding-top: 20px;
+}
+#physjobs{
+	width:400px;
+	float:left;
+	height:950px;
+	margin-right: 50px;
+}
+#staffjobs{
+	width:400px;
+	height:950px;
+}
+#innav{
+	width:240px;
+}
+#welcomeleft{
+	float:left;
+	width:180px;
+	padding: 0px 20px 10px 30px;
+	background-color: #f1ede7;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	border-top: #004812 solid 20px;
+}
+#npgreenbtn{
+	float:left;
+	width:180px;
+}
+#inlcregister{
+	float:left;
+	width:190px;
+	background-image: url(images/light_box_sm.png);
+	background-repeat: no-repeat;
+	padding: 75px 0px 10px 55px;
+	height: 50px;
+}
+#vacreers{
+	width:343px;
+	height:180px;
+	background-image:url(images/v_careers.jpg);
+	background-repeat:no-repeat;
+	padding-top:65px;
+	padding-left: 35px;
+	float:right;
+}
+#doctour{
+	float:right;
+	margin: 0px 0px 20px 50px;
+	}
+#docs{
+	width:780px;
+	margin:auto;
+	}
+#sus{
+	width:240px;
+	float:left;
+	padding-bottom:20px;
+	}
+#hild{
+	width:240px;
+	float:left;
+	padding-bottom:20px;
+	}
+#meni{
+	width:290px;
+	float:left;
+	padding-bottom:20px;
+	}
+#phones{
+	float:right;
+	padding: 40px 30px 20px 30px;
+	background-color: #f3efe8;
+	margin-top: 80px;
+	}
+#centerwrap{
+	width:980px;
+	margin:auto;
+	margin-bottom: 25px;
+	padding-top: 20px;
+	height: 100%;
+	z-index: 5;
+	}
+#spacer{
+	width:1160px;
+	margin:auto;
+	height:20px;
+	}	
+
+.hometext{
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+	color:#f1ede7;
+	line-height: 25px;
+}
+.green{
+	font-family:"Times New Roman", Times, serif;
+	font-size:21px;
+	color:#004812;
+	line-height: 25px;
+}
+.hometextr{
+	font-family:"Times New Roman", Times, serif;
+	font-size:13px;
+	color:#f1ede7;
+	line-height: 35px;
+}
+.hometextbg{
+	font-family:"Times New Roman", Times, serif;
+	font-size:25px;
+	color:#f1ede7;
+	line-height: 38px;
+}
+.villages{
+	font-family:"Times New Roman", Times, serif;
+	font-size:24px;
+	color:#f1ede7;
+	line-height: 35px;
+	text-align:center;
+}
+.text{
+	font-family:"Times New Roman", Times, serif;
+	font-size:16px;
+	color:#5c4f3c;
+	text-align:left;
+	line-height: 22px;
+}
+.h1{
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+	color:#5c4f3c;
+	text-align:left;
+	font-weight:bold;
+}
+.h2{
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+	color:#5c4f3c;
+	text-align:center;
+	font-weight:bold;
+}
+.rs{
+	font-family:"Times New Roman", Times, serif;
+	font-size:11px;
+	color:#5c4f3c;
+	text-align:left;
+}
+.text2{
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+	color:#004812;
+	text-align:left;
+	font-weight: bold;
+}
+.adtext{
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+color: #FFF;
+text-align:left;
+line-height:18px;
+}
+.bolds{
+	font-family:"Times New Roman", Times, serif;
+	font-size:17px;
+color:#7e7365;
+text-align:left;
+font-weight:bold;
+letter-spacing:.6px;
+}
+.readarticle{
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+color:#7e7365;
+text-align:left;
+}
+.sendinvite{
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+color: #FFF;
+text-align:left;
+}
+.footer-in {
+	font-family:"Times New Roman", Times, serif;
+	font-size:23px;
+color:#fbfbf8;
+text-align:center;
+}
+.copyright{
+	font-family:"Times New Roman", Times, serif;
+	font-size:10px;
+color:#7e7365;
+text-align:center;
+}
+.bottomnav{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:18px;
+	text-align:left;
+	color:#5c4f3c;
+}
+.bottomnav2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+	text-align:left;
+	color:#5c4f3c;
+	font-weight:bold;
+}
+.welcomenav{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:14px;
+	text-align:left;
+	color:#5c4f3c;
+}
+.docs{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:25px;
+	text-align:left;
+	color:#5c4f3c;
+}
+
+.warn{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:20px;
+	text-align:left;
+	color: #FFF;
+}
+
+.captions{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:20px;
+	text-align:left;
+	color:#000;
+}
+#photowrapper{
+	width:1200px;
+	}
+#photocaption{
+	width:250px;
+	float: right;
+	padding-right: 20px;
+}
+
+#numbers{
+	height: 50px;
+	width: 700px;
+}
+
+a#testbutton, a#testbutton:visited {
+display:block;
+background: url(images/no_btn.png)
+repeat-x;
+width: 40px;
+padding:14px 0;
+text-align:center;
+border:1px solid #fdfcf8;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.8);
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+color: #063;
+text-decoration: none;
+opacity:.85;
+float:left;
+}
+
+a#testbutton:hover {
+border-color:#fdfcf8;
+color: #999;
+}
+
+a#testbutton:active {
+background-position:  0 -200px;
+padding:11px 0 9px;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
+}
+
+div#FormSubmitted {
+	padding:45px;
+	background-color: #274E37;
+	height: 45px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:48px;
+	color: #f2d385;
+	text-align:center;
+	vertical-align:center;
+	position:fixed;
+	bottom:0;
+	width:100%;
+
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>3.3</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>false</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>false</Controls>
+            <GalleryName>TVH welcome show</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>fade</ImageEffect>
+            <ImageFillColor>#FFFFFF</ImageFillColor>
+            <ImageHeight>330</ImageHeight>
+            <ImageQuality>100</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>/Applications/WOWSlider.app/Contents/Resources/templates/backgnd/quiet/</ImageTemplate>
+            <ImageTemplateName>Quiet</ImageTemplateName>
+            <ImageWidth>630</ImageWidth>
+            <Images>true</Images>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <Preloader>false</Preloader>
+            <PublishFileName>/AP backup documents/Active Jobs/WEBSITES/TVH 2013/welcomeshow/welcomeshow.html</PublishFileName>
+            <PublishIndex>welcomeshow.html</PublishIndex>
+            <PublishPath>/AP backup documents/Active Jobs/WEBSITES/TVH 2013/welcomeshow</PublishPath>
+            <PublishPreview>false</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateName>quiet</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>top</TooltipPos>
+            <WatermarkAlign>66</WatermarkAlign>
+            <WatermarkBgColor>#ffffff</WatermarkBgColor>
+            <WatermarkColor>#514242</WatermarkColor>
+            <WatermarkHaveBgColor>true</WatermarkHaveBgColor>
+            <WatermarkOpacity>80</WatermarkOpacity>
+            <noFrame>1</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>/Users/Andrea/Desktop/images/slide_0000_belleview.jpg</url>
+                <title>slide_0000_belleview</title>
+            </Image>
+            <Image>
+                <url>/Users/Andrea/Desktop/images/slide_0002_colony.jpg</url>
+                <title>slide_0002_colony</title>
+            </Image>
+            <Image>
+                <url>/Users/Andrea/Desktop/images/slide_0001_santa.jpg</url>
+                <title>slide_0001_santa</title>
+            </Image>
+            <Image>
+                <url>/Users/Andrea/Desktop/images/sharon_morse.jpg</url>
+                <title>sharon_morse</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
