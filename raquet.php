@@ -71,6 +71,7 @@ body {
 </head>
 
 <body>
+<?php include( 'gtm_head.php' ); ?>
 <?php include 'nav.php'; ?>
 <div id="homewrapper">
 <div class="text" id="content">

@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html class="safari">
 <head>
-
+<?php include( '../gtm_head.php' ); ?>
 <title>
 eCW Overview Training April 7
 </title>
@@ -60,7 +60,7 @@ html{background-image:none;background-color:#fdfcf8;}#logo{background-image:none
 </head>
 
 <body id="public" class="noI" onorientationchange="window.scrollTo(0, 1)">
-
+<?php include( '../gtm_body.php' ); ?>
 
 
 <div id="container" class="ltr">

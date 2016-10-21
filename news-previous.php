@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<?php include( 'gtm_head.php' ); ?>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>News about The Villages Health</title>
 <link href="tvh.css" rel="stylesheet" type="text/css" />
@@ -90,6 +91,7 @@ scrolltotop.init()</script>
 </head>
 
 <body>
+<?php include( 'gtm_body.php' ); ?>
 <?php include 'nav.php'; ?>
 <?php include 'news-articles.php'; ?>
 <div id="homewrapper">

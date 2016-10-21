@@ -1,6 +1,8 @@
 
 <html>
   <head>
+  <?php include( 'gtm_head.php' ); ?>
+  <?php include( 'gtm_head.php' ); ?>
     <script src="jquery-1.9.1.js"></script>
     <script src="jquery.validity.min.js"></script>
     <link href="jquery.validity.css" rel="stylesheet" type="text/css" />
@@ -42,6 +44,8 @@
   </head>
 
 <body>
+<?php include( 'gtm_body.php' ); ?>
+<?php include( 'gtm_body.php' ); ?>
   <link href="tvh.css" rel="stylesheet" type="text/css" />
   <link href="forms.css" rel="stylesheet" type="text/css" />
   <form  action="forms-submit.php" method="post" name="contactus" id="contactus" accept-charset="utf-8">

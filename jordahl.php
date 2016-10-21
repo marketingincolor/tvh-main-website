@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<?php include( 'gtm_head.php' ); ?>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>David Jordahl | Colony Care Center</title>
 <meta name="description" content="Doctor David Jordahl practices at The Villages Health Colony Care Center.">

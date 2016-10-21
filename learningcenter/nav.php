@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<?php include( '../gtm_head.php' ); ?>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title></title>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.js"></script>
@@ -153,6 +154,7 @@ function popitup(url) {
 </head>
 
 <body onload="MM_preloadImages('images/home_btn_ro.png','images/contact_btn_ro.png','images/login_btn_ro.png','images/map.png','images/map_ro.png')">
+<?php include( '../gtm_body.php' ); ?>
 <div id="nav">
 <a href="http://thevillageshealth.com/"><img src="http://thevillageshealth.com/images/logo.png" style="margin-bottom:-100px;"/></a>
 <div id="topnav"><a href="http://www.thevillageshealth.com/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('home','','images/home_btn_ro.png',1)"><img src="images/home_btn.png" name="home" width="56" height="34" border="0" align="middle" id="home" /></a><a href="http://www.thevillageshealth.com/contactus.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('contact us','','images/contact_btn_ro.png',1)"><img src="images/contact_btn.png" name="contact us" width="97" height="34" border="0" align="middle" id="contact us" /></a><a href="TVHCC map.pdf" target="_blank" onmouseover="MM_swapImage('locations','','images/map_ro.png',1)" onmouseout="MM_swapImgRestore()"><img src="images/map.png" alt="locations" name="locations" width="86" height="72" border="0" align="middle" id="locations" /></a><a href="https://mycw42.eclinicalweb.com/portal4749/jsp/login.jsp" target="_blank" onmouseover="MM_swapImage('login','','images/login_btn_ro.png',1)" onmouseout="MM_swapImgRestore()"><img src="images/login_btn.png" name="login" width="175" height="65" border="0" align="top" id="login" /></a></div>

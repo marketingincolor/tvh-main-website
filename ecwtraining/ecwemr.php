@@ -2,6 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<?php include( '../gtm_head.php' ); ?>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>ECW Clinical training registration</title>
 <style type="text/css">
@@ -117,6 +118,7 @@ function MM_swapImage() { //v3.0
 </head>
 
 <body onload="MM_preloadImages('arrow.png')">
+<?php include( '../gtm_body.php' ); ?>
 <img src="logo.png" width="375" height="55" />
 <p class="text">Please schedule all new providers and staff for first available eCW Overview following date of hire<br />
  All providers and clinical staff should be scheduled in EMR Training sessions in addition to Overview.<br />
