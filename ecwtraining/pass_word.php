@@ -97,6 +97,7 @@ function showLoginPasswordProtect($error_msg) {
 ?>
 <html>
 <head>
+<?php include( 'gtm_head.php' ); ?>
   <title>Please enter password to access this page</title>
   <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
   <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
@@ -110,6 +111,7 @@ body {
 </style>
 </head>
 <body>
+<?php include( 'gtm_body.php' ); ?>
 <style>
     input { border: 1px solid black; }
   </style>

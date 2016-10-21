@@ -1,5 +1,6 @@
 <html>
 <head>
+<?php include( 'gtm_head.php' ); ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="jquery.validity.min.js"></script>
   <link href="jquery.validity.css" rel="stylesheet" type="text/css" />
@@ -36,7 +37,7 @@
 </head>
 
 <body> 
-
+<?php include( 'gtm_body.php' ); ?>
 <img src="images/apply.png" width="128" height="33" />
 
 

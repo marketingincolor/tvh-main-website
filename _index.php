@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<?php include( 'gtm_head.php' ); ?>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>The Villages Health | The Villages, Florida</title>
 <style type="text/css">
@@ -80,6 +81,7 @@ function MM_swapImage() { //v3.0
 </head>
 
 <body onload="MM_preloadImages('images/login_btn_ro.png')">
+<?php include( 'gtm_body.php' ); ?>
 <div id="wrapper">
 <div id="login"><a href="https://mycw42.eclinicalweb.com/portal4749/jsp/login.jsp" target="_blank" onmouseover="MM_swapImage('Image4','','images/login_btn_ro.png',1)" onmouseout="MM_swapImgRestore()" ><img src="images/login_btn.png" name="Image4" width="175" height="65" border="0" id="Image4" /></a>
 </div>
