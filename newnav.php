@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<?php include( 'gtm_head.php' ); ?>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title></title>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.js"></script>
@@ -160,6 +161,7 @@ function popitup(url) {
 </head>
 
 <body onload="MM_preloadImages('/images/home_btn_ro.png','/images/contact_btn_ro.png','/images/login_btn_ro.png','/images/map.png','/images/map_ro.png')">
+<?php include( 'gtm_body.php' ); ?>
 <div id="nav">
 <a href="http://thevillageshealth.com/">
 	<?php

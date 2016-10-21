@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<?php include( 'gtm_head.php' ); ?>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>The Villages Health | America's Healthiest Hometown</title>
 <meta name="description" content="The Villages Health is in a unique partnership with USF Health®. This formal and vibrant relationship brings exceptional benefits of modern science, health resources and ongoing learning opportunities for The Villages residents as well as our health care partners.">
@@ -52,6 +53,7 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
 </head>
 
 <body onload="MM_preloadImages('images/lc_register_ro.png','images/register_ro.jpg','images/more-btn-ro.jpg')">
+<?php include( 'gtm_body.php' ); ?>
 <?php include 'nav.php'; ?>
 <div id="homewrapper">
 <div class="hometext" id="greenbopybox"> The Villages<span class="hometextr">®</span> Health is building a new paradigm for Primary Healthcare in America's largest retirement development — The Villages, Florida.
