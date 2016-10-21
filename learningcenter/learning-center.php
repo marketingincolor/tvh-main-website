@@ -1,7 +1,7 @@
-
 <!DOCTYPE html>
 <html class="safari">
 <head>
+    <?php include( '../gtm_head.php' ); ?>
     <script src="../jquery-1.9.1.js"></script>
     <script src="../jquery.validity.min.js"></script>
     <link href="../jquery.validity.css" rel="stylesheet" type="text/css" />
@@ -74,6 +74,7 @@
 </head>
 
 <body id="public" class="noI" onorientationchange="window.scrollTo(0, 1)">
+<?php include( '../gtm_body.php' ); ?>
 
 
 

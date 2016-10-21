@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html class="safari">
 <head>
-
+<?php include( '../gtm_head.php' ); ?>
 <title>
 eCW EMR Training April 8-17
 </title>
@@ -54,7 +54,7 @@ html{background:#eee}body{margin:17px 0 15px 0;padding:0;text-align:center;font-
 </head>
 
 <body id="public" class="noI" onorientationchange="window.scrollTo(0, 1)">
-
+<?php include( '../gtm_body.php' ); ?>
 
 
 <div id="container" class="ltr">
