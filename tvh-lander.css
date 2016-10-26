@@ -1,7 +1,7 @@
 /* Foundation Overrides */
 .row {
     margin: 0 auto;
-    max-width: 60em; /*changes 62.5em (1000px) to 60mem (960px)*/
+    max-width: 60em; /*changes 62.5em (1000px) to 60em (960px)*/
     width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -9,10 +9,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold !important;
     line-height: 1.2 !important;
 }
-h1 { color: rgb(45, 122, 61) !important; }
+h1, .green { color: rgb(45, 122, 61) !important; }
 p { line-height: 1.2 !important; margin-bottom:1em !important; }
 
-/* Page Components */
+/* Main Page Components */
 body {
     background-color: rgb(255, 255, 255);
     color:rgb(0, 0, 0);
@@ -31,10 +31,8 @@ button { border-radius:50%; }
 .h3-social h3 { color: rgb(255, 255, 255); }
 .h4-share { background-color: rgb(239,247,248); }
 .h4-share h4 { color: rgb(37, 102, 115); }
-
-.h4-share .share-button { color: rgb(255, 255, 255); background-color: rgb(37, 102, 115); border-radius:30px; padding:0.5em 0.75em; margin-bottom:1em;}
+.h4-share .share-button { color: rgb(255, 255, 255); background-color: rgb(37, 102, 115); border-radius:30px; padding:0.5em 1.5em; margin-bottom:1em;}
 .h4-share .share-button:hover { background-color:rgb(53,148,167); }
-
 .h4-like { background-color: rgb(29, 79, 89); }
 .h4-like a { color: rgb(255, 255, 255); }
 .h4-like a:hover { color: rgb(193, 248, 255); }
@@ -51,13 +49,36 @@ button { border-radius:50%; }
 .footer div { margin:1.5em 0em; }
 .footer a, .footer a:hover { color:rgb(0, 0, 0); text-decoration:underline;}
 
+/* Sub Page Components - share and success */
+.h1-share h1 { font-size: 1.75em !important; color: rgb(37, 102, 115) !important; margin:0.5em 0; }
+form {}
+label { text-align:left; font-size:1em;  color: rgb(53, 148, 167); font-weight: bold; }
+input, textarea { background-color: rgb(224, 224, 224) !important; border:none !important; box-shadow:none !important; }
+.fsSubmitButton { color: rgb(255, 255, 255); background-color: rgb(37, 102, 115) !important; border-radius:30px; padding:0.5em 1.5em; margin-bottom:1em;}
+.fsSubmitButton:hover { background-color:rgb(53,148,167) !important; }
+.rtn-button { color: rgb(255, 255, 255); background-color: rgb(37, 102, 115); border-radius:30px; padding:0.5em 0.75em; margin-bottom:1em;}
+.rtn-button:hover { background-color:rgb(53,148,167); color: rgb(255, 255, 255); }
+
+.share-fb {display:inline-block; width:76px; height:76px; background:url(./images/tvhlp-grfx-social-btn-fb.png) no-repeat center center; }
+.share-fb:hover { background:url(./images/tvhlp-grfx-social-btn-hov-fb.png) no-repeat center center; }
+.share-fb:active { background:url(./images/tvhlp-grfx-social-btn-clk-fb.png) no-repeat center center; }
+.share-tw {display:inline-block; width:76px; height:76px; background:url(./images/tvhlp-grfx-social-btn-tw.png) no-repeat center center; }
+.share-tw:hover { background:url(./images/tvhlp-grfx-social-btn-hov-tw.png) no-repeat center center; }
+.share-tw:active { background:url(./images/tvhlp-grfx-social-btn-clk-tw.png) no-repeat center center; }
+.share-em {display:inline-block; width:76px; height:76px; background:url(./images/tvhlp-grfx-social-btn-em.png) no-repeat center center; }
+.share-em:hover { background:url(./images/tvhlp-grfx-social-btn-hov-em.png) no-repeat center center; }
+.share-em:active { background:url(./images/tvhlp-grfx-social-btn-clk-em.png) no-repeat center center; }
+.share-li {display:inline-block; width:76px; height:76px; background:url(./images/tvhlp-grfx-social-btn-li.png) no-repeat center center; }
+.share-li:hover { background:url(./images/tvhlp-grfx-social-btn-hov-li.png) no-repeat center center; }
+.share-li:active { background:url(./images/tvhlp-grfx-social-btn-clk-li.png) no-repeat center center; }
+
 /* MEDIA QUERIES */
 /* Small screens */
 @media only screen {
-    .h1-intro h1 { font-size: 1.75em !important; }
-    p { font-size: 1em !important;}
-    p.more { font-size: 1.125em !important;}
-    p.sub { font-size: 0.750em !important;}
+    .h1-intro h1 { font-size: 1.75em /*3em*/ !important; }
+    p { font-size: 1em /*2.250em*/ !important;}
+    p.more { font-size: 1.125em /*2.875em*/ !important;}
+    p.sub { font-size: 0.750em /*1.5em*/ !important; margin-bottom:2.25em !important; }
     .circle-container { width: 16em; height: 16em; margin:auto; padding:2em 2em; }
     .circle-wrapper { width: 16.5em; height: 16.5em; padding-top:4px; }
     .h2-cta h2 { font-size:1.0em; }
@@ -75,7 +96,7 @@ button { border-radius:50%; }
     .h1-intro h1 { font-size: 1.75em !important; }
     p { font-size: 1.125em !important;}
     p.more { font-size: 1.25em !important;}
-    p.sub { font-size: 0.750em !important;}
+    p.sub { font-size: 0.750em !important; margin-bottom:2.25em !important;}
     .circle-container { width: 18em; height: 18em; margin:auto; padding:3em 2em; }
     .circle-wrapper { width: 18.5em; height: 18.5em; padding-top:4px; }
     .h2-cta h2 { font-size:1.125em; }
@@ -90,14 +111,16 @@ button { border-radius:50%; }
     .h1-intro h1 { font-size: 1.75em !important; }
     p { font-size: 1.125em !important;}
     p.more { font-size: 1.25em !important;}
-    p.sub { font-size: 0.750em !important;}
-    .circle-container { width: 22em; height: 22em; margin:auto; padding:5em 2em; }
+    p.sub { font-size: 0.750em !important; margin-bottom:2.25em !important;}
+    .circle-container { width: 22em; height: 22em; margin:auto; padding:3.5em 2em; }
+    .circle-container p { margin:1.65em 0em !important; }
     .circle-wrapper { width: 22.5em; height: 22.5em; padding-top:4px; }
-    .h2-cta h2 { font-size:1.5em; }
+    .h2-cta h2 { font-size:1.5em; margin:0 !important; }
     .h2-cta p { font-size:1.125em; }
     .h2-cta .cta-button, .h4-share .share-button { font-size:1.25em; }
-    .h3-social h3 { font-size: 1.5em; margin:0.750em 0; }
-    .h4-share h4, .h4-like h4 { font-size: 1.5em; margin:0.750em 0; }
+    .h3-social h3 { font-size: 1.5em; margin:2.375em 0 0.750em 0; }
+    .h4-share h4 { font-size: 1.5em; margin:2.375em 0 0.750em 0; }
+    .h4-like h4 { font-size: 1.5em; margin:0.750em 0; }
 
 } /* min-width 1025px, large screens */
 
