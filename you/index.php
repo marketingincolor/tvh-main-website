@@ -116,8 +116,14 @@
         </div>
 
         <div class="row footer">
-            <div class="small-12 columns">
+            <div class="medium-4 small-12 columns">
                 &copy; <?php echo date("Y") ?> The Villages Health
+            </div>
+            <div class="medium-4 small-12 columns">
+                <a href="http://www.thevillageshealth.com" target="_blank">Privacy Policy</a>
+            </div>
+            <div class="medium-4 small-12 columns">
+                <a href="http://www.thevillageshealth.com" target="_blank">Terms &amp; Conditions</a>
             </div>
         </div>
 

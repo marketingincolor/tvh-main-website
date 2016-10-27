@@ -50,7 +50,7 @@ button { border-radius:50%; }
 .footer a, .footer a:hover { color:rgb(0, 0, 0); text-decoration:underline;}
 
 /* Sub Page Components - share and success */
-.h1-share h1 { font-size: 1.75em !important; color: rgb(37, 102, 115) !important; margin:0.5em 0; }
+.h1-share h1 { font-size: 1.75em !important; color: rgb(37, 102, 115) !important; margin:2.250em 0 0.5em 0; }
 form {}
 label { text-align:left; font-size:1em;  color: rgb(53, 148, 167); font-weight: bold; }
 input, textarea { background-color: rgb(224, 224, 224) !important; border:none !important; box-shadow:none !important; }

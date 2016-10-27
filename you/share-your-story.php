@@ -33,6 +33,7 @@
                     <div class="small-10 small-offset-1 columns">
                         <h1>Share Your Story</h1>
                         <p>How has your health care experience been at The Villages Health&reg;? Do you enjoy a close relationship with your doctor? Do you feel the staff goes above and beyond? Do you find the patient portal helpful? Have you saved money on your health care or enjoyed additional benefits with Medicare Advantage? Let us know the various reasons why you’re happy with your health care here.</p>
+                        <p>&nbsp;</p>
                     </div>
                 </div>
             </div>
@@ -46,8 +47,14 @@
         </div>
 
         <div class="row footer">
-            <div class="small-12 columns">
+            <div class="medium-4 small-12 columns">
                 &copy; <?php echo date("Y") ?> The Villages Health
+            </div>
+            <div class="medium-4 small-12 columns">
+                <a href="http://www.thevillageshealth.com" target="_blank">Privacy Policy</a>
+            </div>
+            <div class="medium-4 small-12 columns">
+                <a href="http://www.thevillageshealth.com" target="_blank">Terms &amp; Conditions</a>
             </div>
         </div>
 
