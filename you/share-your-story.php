@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php //include( 'gtm_head.php' ); ?>
+        <?php include( 'gtm_head.php' ); ?>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta charset="utf-8">
         <title>Share Your Story</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.1.2/foundation.min.css" />
         <link href="../tvh-lander.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <?php //include( 'gtm_body.php' ); ?>
+        <?php include( 'gtm_body.php' ); ?>
         <div class="expanded row">
             <div class="logo small-12 small-centered columns align-self-middle">
                 <div class="row">
@@ -29,10 +29,10 @@
         </div>
         <div class="row">
             <div class="h1-share small-12 small-centered columns">
-                <div class="row">
+                <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
                         <h1>Share Your Story</h1>
-                        <p>How has your health care experience been at The Villages Health&reg;? Do you enjoy a close relationship with your doctor? Do you feel the staff goes above and beyond? Do you find the patient portal helpful? Have you saved money on your health care or enjoyed additional benefits with Medicare Advantage? Let us know the various reasons why you’re happy with your health care here.</p>
+                        <p class="main">How has your health care experience been at The Villages Health<sup>&reg;</sup>? Do you enjoy a close relationship with your doctor? Do you feel the staff goes above and beyond? Do you find the patient portal helpful? Have you saved money on your health care or enjoyed additional benefits with Medicare Advantage? Let us know the various reasons why you’re happy with your health care here.</p>
                         <p>&nbsp;</p>
                     </div>
                 </div>
@@ -47,14 +47,8 @@
         </div>
 
         <div class="row footer">
-            <div class="medium-4 small-12 columns">
+            <div class="small-12 columns">
                 &copy; <?php echo date("Y") ?> The Villages Health
-            </div>
-            <div class="medium-4 small-12 columns">
-                <a href="http://www.thevillageshealth.com" target="_blank">Privacy Policy</a>
-            </div>
-            <div class="medium-4 small-12 columns">
-                <a href="http://www.thevillageshealth.com" target="_blank">Terms &amp; Conditions</a>
             </div>
         </div>
 

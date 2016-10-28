@@ -22,7 +22,7 @@ body {
 button { border-radius:50%; }
 .logo{ background-color:rgb(26, 71, 35); padding:10px; }
 .video, .h1-intro { background-color: rgb(250, 250, 250);}
-.h2-cta { background: url(./images/tvhlp-grfx-cta-bgnd.jpg) no-repeat center center / cover; padding: 1em 0; }
+.h2-cta { background: url(./images/tvhlp-grfx-cta-bgnd.jpg) no-repeat center center / cover; padding:36px 0; }
 .h2-cta h2 { color: rgb(255, 255, 255); }
 .h2-cta p { color: rgb(255, 255, 255); }
 .h2-cta .cta-button { color: rgb(255, 255, 255); background-color: rgb(168, 80, 32); border-radius:30px; padding:0.5em 0.75em; }
@@ -46,17 +46,16 @@ button { border-radius:50%; }
 .right-image { position:relative; }
 .right-image img { bottom:0; left:0; position:absolute; }
 .footer { min-height:3em;}
-.footer div { margin:1.5em 0em; }
 .footer a, .footer a:hover { color:rgb(0, 0, 0); text-decoration:underline;}
 
 /* Sub Page Components - share and success */
-.h1-share h1 { font-size: 1.75em !important; color: rgb(37, 102, 115) !important; margin:2.250em 0 0.5em 0; }
+.h1-share h1 { font-size: 1.75em !important; color: rgb(37, 102, 115) !important; }
 form {}
 label { text-align:left; font-size:1em;  color: rgb(53, 148, 167); font-weight: bold; }
 input, textarea { background-color: rgb(224, 224, 224) !important; border:none !important; box-shadow:none !important; }
-.fsSubmitButton { color: rgb(255, 255, 255); background-color: rgb(37, 102, 115) !important; border-radius:30px; padding:0.5em 1.5em; margin-bottom:1em;}
+.fsSubmitButton { color: rgb(255, 255, 255); background-color: rgb(37, 102, 115) !important; border-radius:30px; padding:0.5em 1.5em; margin-bottom:1em; font-family: 'Roboto', sans-serif !important; font-weight:bold; font-size:24px; }
 .fsSubmitButton:hover { background-color:rgb(53,148,167) !important; }
-.rtn-button { color: rgb(255, 255, 255); background-color: rgb(37, 102, 115); border-radius:30px; padding:0.5em 0.75em; margin-bottom:1em;}
+.rtn-button { color: rgb(255, 255, 255); background-color: rgb(37, 102, 115); border-radius:30px; padding:0.5em 0.75em; margin-bottom:1em; font-family: 'Roboto', sans-serif !important; font-weight:bold; font-size:24px; }
 .rtn-button:hover { background-color:rgb(53,148,167); color: rgb(255, 255, 255); }
 
 .share-fb {display:inline-block; width:76px; height:76px; background:url(./images/tvhlp-grfx-social-btn-fb.png) no-repeat center center; }
@@ -75,17 +74,21 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
 /* MEDIA QUERIES */
 /* Small screens */
 @media only screen {
-    .h1-intro h1 { font-size: 1.75em /*3em*/ !important; }
+    .h1-intro h1 { font-size: 1.75em /*3em*/ !important; margin:.65em 0 .5em 0; }
     p { font-size: 1em /*2.250em*/ !important;}
-    p.more { font-size: 1.125em /*2.875em*/ !important;}
+    p.more { font-size: 1.375em /*2.875em*/ !important;}
+    p.main { font-size: 1.25em !important; margin-bottom:36px !important; }
     p.sub { font-size: 0.750em /*1.5em*/ !important; margin-bottom:2.25em !important; }
-    .circle-container { width: 16em; height: 16em; margin:auto; padding:2em 2em; }
+    .circle-container { width: 16em; height: 16em; margin:auto; padding:3em 0.5em; }
     .circle-wrapper { width: 16.5em; height: 16.5em; padding-top:4px; }
     .h2-cta h2 { font-size:1.0em; }
     .h2-cta p { font-size:0.825em; }
-    .h2-cta .cta-button, .h4-share .share-button  { font-size:0.825em; }
-    .h3-social h3 { font-size: 1.1875em; margin:0.50em 0; }
-    .h4-share h4, .h4-like h4 { font-size: 1.185em; margin:0.50em 0; }
+    .h2-cta .cta-button, .h4-share .share-button  { font-size:0.825em; font-weight:bold; }
+    .h3-social h3 { font-size: 1.1875em; margin:2.65em 0 0.50em 0; }
+    .h4-share h4 { font-size: 1.185em; margin:1.675em 0 0.8750em 0; }
+    .h4-like h4 { font-size: 1.185em; margin:0.8750em 0; }
+    .h1-share h1 { margin:1.250em 0 0.5em 0; }
+    .footer div { padding:24px 0; }
 } /* Define mobile styles */
 
 @media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
@@ -93,34 +96,39 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
 /* Medium screens */
 @media only screen and (min-width: 40.063em) {
     .logo { min-height:100px; }
-    .h1-intro h1 { font-size: 1.75em !important; }
+    .h1-intro h1 { font-size: 1.75em !important; margin:.5em 0; }
     p { font-size: 1.125em !important;}
-    p.more { font-size: 1.25em !important;}
+    p.main { font-size: 1.25em !important; margin-bottom:36px !important; }
+    p.more { font-size: 1.375em !important;}
     p.sub { font-size: 0.750em !important; margin-bottom:2.25em !important;}
     .circle-container { width: 18em; height: 18em; margin:auto; padding:3em 2em; }
     .circle-wrapper { width: 18.5em; height: 18.5em; padding-top:4px; }
     .h2-cta h2 { font-size:1.125em; }
     .h2-cta p { font-size:0.825em; }
-    .h2-cta .cta-button, .h4-share .share-button { font-size:0.825em; }
+    .h2-cta .cta-button, .h4-share .share-button { font-size:0.825em; font-weight:bold; }
+    .h1-share h1 { margin:2.250em 0 0.5em 0; }
+    .footer div { padding:36px 0; }
 } /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 /* Large screens */
 @media only screen and (min-width: 64.063em) {
-    .h1-intro h1 { font-size: 1.75em !important; }
+    .h1-intro h1 { font-size: 1.75em !important; margin:36px 0; }
     p { font-size: 1.125em !important;}
-    p.more { font-size: 1.25em !important;}
-    p.sub { font-size: 0.750em !important; margin-bottom:2.25em !important;}
+    p.main { font-size: 1.25em !important; margin-bottom:36px !important; }
+    p.more { font-size: 1.375em !important;}
+    p.sub { font-size: 0.750em !important; margin-bottom:36px !important;}
     .circle-container { width: 22em; height: 22em; margin:auto; padding:3.5em 2em; }
     .circle-container p { margin:1.65em 0em !important; }
     .circle-wrapper { width: 22.5em; height: 22.5em; padding-top:4px; }
     .h2-cta h2 { font-size:1.5em; margin:0 !important; }
     .h2-cta p { font-size:1.125em; }
-    .h2-cta .cta-button, .h4-share .share-button { font-size:1.25em; }
+    .h2-cta .cta-button, .h4-share .share-button { font-size:1.25em; font-weight:bold; }
     .h3-social h3 { font-size: 1.5em; margin:2.375em 0 0.750em 0; }
     .h4-share h4 { font-size: 1.5em; margin:2.375em 0 0.750em 0; }
-    .h4-like h4 { font-size: 1.5em; margin:0.750em 0; }
+    .h4-like h4 { font-size: 1.5em; margin:30px 0; }
+    .footer div { padding:45px 0; }
 
 } /* min-width 1025px, large screens */
 
