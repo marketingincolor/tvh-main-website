@@ -9,9 +9,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold !important;
     line-height: 1.2 !important;
 }
-h1, .green { color: rgb(45, 122, 61) !important; }
 p { line-height: 1.2 !important; margin-bottom:1em !important; }
-
+hr {margin: 0 !important; }
 /* Main Page Components */
 body {
     background-color: rgb(255, 255, 255);
@@ -20,8 +19,11 @@ body {
     font-family: 'Roboto', sans-serif !important;
 }
 button { border-radius:50%; }
+.green { color: rgb(45, 122, 61) !important; }
+.orange { color: rgb(219, 104, 41) !important; }
 .logo{ background-color:rgb(26, 71, 35); padding:10px; }
-.video, .h1-intro { background-color: rgb(250, 250, 250);}
+.video, .h1-intro, .h1-top, .h2-content { background-color: rgb(250, 250, 250);}
+.h1-intro h1 { color: rgb(45, 122, 61) !important; }
 .h2-cta { background: url(./images/tvhlp-grfx-cta-bgnd.jpg) no-repeat center center / cover; padding:36px 0; }
 .h2-cta h2 { color: rgb(255, 255, 255); }
 .h2-cta p { color: rgb(255, 255, 255); }
@@ -74,7 +76,7 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
 /* MEDIA QUERIES */
 /* Small screens */
 @media only screen {
-    .h1-intro h1 { font-size: 1.75em /*3em*/ !important; margin:.65em 0 .5em 0; }
+    .h1-intro h1, .h1-top h1 { font-size: 1.75em /*3em*/ !important; margin:.65em 0 .5em 0; }
     p { font-size: 1em /*2.250em*/ !important;}
     p.more { font-size: 1.375em /*2.875em*/ !important;}
     p.main { font-size: 1.25em !important; margin-bottom:36px !important; }
@@ -82,6 +84,7 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
     .circle-container { width: 16em; height: 16em; margin:auto; padding:3em 0.5em; }
     .circle-wrapper { width: 16.5em; height: 16.5em; padding-top:4px; }
     .h2-cta h2 { font-size:1.0em; }
+    .h2-content h2 { font-size:1em; padding:24px 0 18px 0; }
     .h2-cta p { font-size:0.825em; }
     .h2-cta .cta-button, .h4-share .share-button  { font-size:0.825em; font-weight:bold; }
     .h3-social h3 { font-size: 1.1875em; margin:2.65em 0 0.50em 0; }
@@ -96,14 +99,15 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
 /* Medium screens */
 @media only screen and (min-width: 40.063em) {
     .logo { min-height:100px; }
-    .h1-intro h1 { font-size: 1.75em !important; margin:.5em 0; }
+    .h1-intro h1, .h1-top h1 { font-size: 1.75em !important; margin:.5em 0; }
     p { font-size: 1.125em !important;}
     p.main { font-size: 1.25em !important; margin-bottom:36px !important; }
     p.more { font-size: 1.375em !important;}
     p.sub { font-size: 0.750em !important; margin-bottom:2.25em !important;}
     .circle-container { width: 18em; height: 18em; margin:auto; padding:3em 2em; }
     .circle-wrapper { width: 18.5em; height: 18.5em; padding-top:4px; }
-    .h2-cta h2 { font-size:1.125em; }
+    .h2-cta h2{ font-size:1.125em; }
+    .h2-content h2 { font-size:1.5em; padding:36px 0 24px 0; }
     .h2-cta p { font-size:0.825em; }
     .h2-cta .cta-button, .h4-share .share-button { font-size:0.825em; font-weight:bold; }
     .h1-share h1 { margin:2.250em 0 0.5em 0; }
@@ -114,7 +118,7 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
 
 /* Large screens */
 @media only screen and (min-width: 64.063em) {
-    .h1-intro h1 { font-size: 1.75em !important; margin:36px 0; }
+    .h1-intro h1, .h1-top h1 { font-size: 1.75em !important; margin:36px 0; }
     p { font-size: 1.125em !important;}
     p.main { font-size: 1.25em !important; margin-bottom:36px !important; }
     p.more { font-size: 1.375em !important;}
@@ -123,6 +127,7 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
     .circle-container p { margin:1.65em 0em !important; }
     .circle-wrapper { width: 22.5em; height: 22.5em; padding-top:4px; }
     .h2-cta h2 { font-size:1.5em; margin:0 !important; }
+    .h2-content h2 { font-size:1.5em; padding:36px 0 24px 0; }
     .h2-cta p { font-size:1.125em; }
     .h2-cta .cta-button, .h4-share .share-button { font-size:1.25em; font-weight:bold; }
     .h3-social h3 { font-size: 1.5em; margin:2.375em 0 0.750em 0; }
