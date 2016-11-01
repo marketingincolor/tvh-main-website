@@ -4,7 +4,7 @@
         <?php //include( '../../gtm_head.php' ); ?>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta charset="utf-8">
-        <title>Make the Best Choice for You - Behavioral Health</title>
+        <title>Make the Best Choice for You - Hospital Coverage</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -48,9 +48,10 @@
             <div class="h1-top small-12 small-centered columns">
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
-                        <h1 class="orange">The Villages Health<sup>&reg;</sup> Integrates Behavioral Health to Better Treat the Whole Patient</h1>
-                        <p class="main">Recognizing the importance of behavioral health to your overall wellbeing, The Villages Health (TVH) has steadily expanded this component of our health care line-up. We've recently added two psychiatrists and two additional therapists, with plans to hire three more therapists in the near future. The goal is to have one therapist available to patients at each TVH Primary Care Center. Consistent with our philosophy of coordinated, patient-centered care, the therapists will work closely with your primary care physician and under the supervision of the psychiatrists.</p>
-                        <p class="main">The expansion of our behavioral health services is part of an extensive effort to treat every aspect of your health, from physical to emotional to psychological. These services are available to you as a patient receiving primary care through The Villages Health.</p>
+                        <h1 class="orange">Hospitals Accepting UnitedHealthcare<sup>&reg;</sup> Medicare Advantage*</h1>
+                        <p class="main">Although The Villages Health<sup>&reg;</sup> (TVH) continues to grow our Specialty Care capabilities, we don't have 100 percent coverage of all specialties. There are times when you'll have specialty needs that we don't currently provide, or you may prefer to see a specialist outside of TVH. This is one of the reasons we partnered with UnitedHealthcare. We want to give you the depth and breadth of the specialists and hospitals participating in the UnitedHealthcare Medicare Advantage plans. We also think you might be interested in learning about some new benefits available with plans we accept, that extend your access to all physicians and hospitals that participate in the Medicare program.</p>
+                        <p class="main">One of the concerns we hear from patients when they're considering switching from a Medicare Supplemental plan to a Medicare Advantage plan is where they can receive care if they require hospitalization. We believe a majority of services should be available within the community to allow patients to receive support from family and friends. However, we want our patients to have excellent options if they choose to leave the community.</p>
+                        <p class="main">Tampa General is a major teaching hospital approximately 90 minutes away, ranked #3 overall in the state by <i>U.S. News &amp; World Report</i>. The hospital also ranks nationally in six specialty areas and is ranked as a high-performer in three others. Orlando Regional, another nearby hospital, ranks #11 overall in the state, and Cleveland Clinic, a bit further away, ranks #5 in the state. All are currently accepting UnitedHealthcare Medicare Advantage.</p>
                     </div>
                 </div>
             </div>
@@ -65,7 +66,7 @@
                             <div class="circle-wrapper-blue">
                                 <div class="circle-container-blue">
                                     <h2>Did you know?</h2>
-                                    <p>An estimated 20% of people, age 55 and older, suffer from a mental health concern.*</p>
+                                    <p>Cleveland Clinic location in both Weston and West Palm Beach, Florida, accept UnitedHealthcare Medicare Advantage plans.</p>
                                 </div>
                             </div>
                         </div>
@@ -78,37 +79,10 @@
             <div class="h2-content small-12 small-centered columns">
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
-                        <p class="main">Our behavioral health services enable us to help patients dealing with problems such as anxiety, depression, sleep disorders, and other concerns. Our behavioral health staff is skilled in treating problems such as the transition from work to retirement or changes in relationships such as those with a child or spouse. Studies show that patients with any sort of physical illness, particularly chronic illnesses, are more likely to have associated behavioral health issues. We offer a full range of treatment including diagnosis, counseling, therapy, and medication management.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="h2-know large-12 small-centered columns">
-                <div class="row collapse" data-equalizer>
-                    <div class="small-12 columns" data-equalizer-watch>
-                        <div class="row collapse">
-                            <div class="circle-wrapper-blue">
-                                <div class="circle-container-blue">
-                                    <h2>Did you know?</h2>
-                                    <p>Patients with diabetes and depression have worse outcomes, unless the depression is treated.**</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="h2-content small-12 small-centered columns">
-                <div class="collapse row">
-                    <div class="small-10 small-offset-1 columns">
-                        <P class="main">The Villages Health changes how health care is provided to ensure you get the care needed for better overall outcomes. By offering additional visit time and having appropriate behavioral health staff available at our Primary Care Centers, we better serve your long-term needs and those of every patient, regardless of whether the issues are behavioral, physical, or a combination of both.</p>
-                        <p class="main">These services, which are provided by The Villages Health, are covered by UnitedHealthcare<sup>&reg;</sup> Medicare Advantage plans. </p>
-                        <p class="main">For more information about The Villages Health behavioral health program, call 352-674-1700.  To learn more about Medicare Advantage plans we accept and the benefits included, contact a UnitedHealthcare license insurance agent or visit any UnitedHealthcare<sup>&reg;</sup> Medicare Store or Medicare Resource Center.</p>
-                        <p class="sub">* American Association of Geriatric Psychiatry (2008). Geriatrics and mental health—the facts.<br />** According to the US National Library of Medicine and the National Institutes of Health.</p>
+                        <p class="main">Nationally, more than half of the top 20 cancer centers ranked by <i>U.S. News &amp; World Report</i> accept UnitedHealthcare Medicare Advantage. These include Johns Hopkins Hospital (#9), Massachusetts General (#11), Cleveland Clinic (#8) and New York-Presbyterian University Hospital of Columbia and Cornell (#17).</p>
+                        <p class="main">We continue to expand the specialties and programs available to our patients. After all, coordination between specialists and primary care physicians is a key component in our delivery of better health outcomes for our patients.</p>
+                        <p class="main">For more information about the Medicare Advantage plans accepted at The Villages Health and any hospitals or physicians that participate in the UnitedHealthcare Medicare Advantage network, contact your local UnitedHealthcare insurance agent, visit a <a href="" class="orange">Medicare Resource Center</a> or a <a href="" class="orange">UnitedHealthcare Medicare Store</a>.</p>
+                        <p class="sub">*This information includes examples based on the most current information TVH had access to. Hospitals change accepted insurance plans routinely and health care networks change frequently. In order to get the specific information on hospitals, insurance plans, and each individuals circumstances, consult a licensed insurance professional who represents UnitedHealthcare Medicare Advantage plans for clarification.</p>
                     </div>
                 </div>
             </div>
@@ -118,13 +92,13 @@
             <div class="h2-content small-12 small-centered columns">
                 <div class="collapse row">
                     <div class="small-4 columns">
-                        <P class="main">
-                            <a href="../hospital-coverage">&lt;&nbsp;Hospital Coverage</a>
+                        <p class="main">
+                            <a href="../hospital-care">&lt;&nbsp;Hospital Care</a>
                         </p>
                     </div>
                     <div class="small-4 small-offset-4 columns">
-                        <P class="main">
-                            <a href="../hospital-care">Hospital Care&nbsp;&gt;</a>
+                        <p class="main">
+                            <a href="../behavioral-health">Behavioral Health&nbsp;&gt;</a>
                         </p>
                     </div>
                 </div>

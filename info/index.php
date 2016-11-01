@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php //include( 'gtm_head.php' ); ?>
+        <?php //include( '../gtm_head.php' ); ?>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta charset="utf-8">
         <title>Make the Best Choice for You</title>
@@ -29,7 +29,7 @@
         </script>
     </head>
     <body class="info">
-        <?php //include( 'gtm_body.php' ); ?>
+        <?php //include( '../gtm_body.php' ); ?>
         <div class="row">
             <div class="logo small-12 small-centered columns align-self-middle">
                 <div class="row">
@@ -57,66 +57,77 @@
             </div>
             <div class="small-10 large-12 small-centered columns"></div>
         </div>
+
         <div class="row">
             <div class="h2-cta large-12 small-centered columns">
-
-                <div class="row" data-equalizer>
-
+                <div class="row collapse" data-equalizer>
                     <div class="small-12 large-6 columns" data-equalizer-watch>
-                        <div class="row">
+                        <div class="each row collapse">
                             <div class="circle-wrapper">
                                 <div class="circle-container">
-                                    <h2>Visit any UnitedHealthcare Medicare Store to learn more.</h2>
+                                    <h2>Visit any UnitedHealthcare Medicare Store to learn more.</h2><br />
                                     <a class="cta-button" href="http://thevillageshealth.com/info/uhc-medicare-stores">Locations</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="small-12 large-6 columns" data-equalizer-watch>
-                        <div class="row">
+                        <div class="each row collapse">
                             <div class="circle-wrapper">
                                 <div class="circle-container">
-                                    <h2>Visit any Medicare Resource Center to learn more.</h2>
+                                    <h2>Visit any Medicare Resource Center to learn more.</h2><br />
                                     <a class="cta-button" href="http://thevillageshealth.com/info/medicare-resource-centers">Locations</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </div>
 
-
         <div class="row">
             <div class="h2-content large-12 small-centered columns">
-                <h2 class="orange">Expanding Our Circle of Specialty Care</h2>
-                <p class="main">TVH continues to grow our specialty care offerings and the services available to you. We've expanded our behavioral health program to offer treatment for every aspect of your health, from physical to emotional to psychological. We invite you to learn more about these behavioral health services available to you as a patient receiving primary care through TVH.  Click here to learn more.</p>
-                <p class="main">We have added 24 providers in 2016 to ensure all of our patients have convenient access to exceptional care whenever it's needed.</p>
+                <div class="collapse row">
+                    <div class="small-10 small-offset-1 columns">
+                        <h2 class="orange">Expanding Our Circle of Specialty Care</h2>
+                        <p class="main">TVH continues to grow our specialty care offerings and the services available to you. We've expanded our behavioral health program to offer treatment for every aspect of your health, from physical to emotional to psychological. We invite you to learn more about these behavioral health services available to you as a patient receiving primary care through TVH.  <a href="./behavioral-health">Click here to learn more</a>.</p>
+                        <p class="main">We have added 24 providers in 2016 to ensure all of our patients have convenient access to exceptional care whenever it's needed.</p>
+                    </div>
+                </div>
                 <hr>
             </div>
         </div>
         <div class="row">
             <div class="h2-content large-12 small-centered columns">
-                <h2 class="orange">Higher Quality Hospital Care</h2>
-                <p class="main">Are you aware of the higher quality care you receive if you are a TVH patient with Medicare Advantage and become hospitalized at The Villages<sup>&reg;</sup> Regional Hospital? We invite you to learn more about our hospital medicine program featuring care from TVH Hospitalists and Nurse Navigators. Click here to learn more.</p>
+                <div class="collapse row">
+                    <div class="small-10 small-offset-1 columns">
+                        <h2 class="orange">Higher Quality Hospital Care</h2>
+                        <p class="main">Are you aware of the higher quality care you receive if you are a TVH patient with Medicare Advantage and become hospitalized at The Villages<sup>&reg;</sup> Regional Hospital? We invite you to learn more about our hospital medicine program featuring care from TVH Hospitalists and Nurse Navigators. Click here to learn more.</p>
+                    </div>
+                </div>
                 <hr>
             </div>
         </div>
         <div class="row">
             <div class="h2-content large-12 small-centered columns">
-                <h2 class="orange">Hosptials Accepting UnitedHealthcare<sup>&reg;</sup> Medicare Advantage</h2>
-                <p class="main">If you choose to leave our community for care, we invite you to learn more about the hospitals that accept UnitedHealthcare Medicare Advantage. Click here to learn more.</p>
+                <div class="collapse row">
+                    <div class="small-10 small-offset-1 columns">
+                        <h2 class="orange">Hosptials Accepting UnitedHealthcare<sup>&reg;</sup> Medicare Advantage</h2>
+                        <p class="main">If you choose to leave our community for care, we invite you to learn more about the hospitals that accept UnitedHealthcare Medicare Advantage. Click here to learn more.</p>
+                    </div>
+                </div>
                 <hr>
             </div>
         </div>
         <div class="row">
             <div class="h2-content large-12 small-centered columns">
                 <br />
-                <p class="main">It's all part of an exceptional care model built around your individual needs that links primary care, behavioral health, vision, audiology, and a growing range of specialties for highly coordinated care.</p>
-                <p class="main">Nothing is as important as your health, so make sure you have the complete facts.</p>
+                <div class="collapse row">
+                    <div class="small-10 small-offset-1 columns">
+                        <p class="main">It's all part of an exceptional care model built around your individual needs that links primary care, behavioral health, vision, audiology, and a growing range of specialties for highly coordinated care.</p>
+                        <p class="main">Nothing is as important as your health, so make sure you have the complete facts.</p>
+                    </div>
+                </div>
                 <br /><br />
             </div>
         </div>
@@ -125,7 +136,7 @@
             <div class="h4-share small-12 columns">
                 <h4>Revolutionary Care Centered on You</h4>
                 <p>We are here for you! To learn more about The Villages Health, please call, email, or click the button below.</p>
-                <a href="#" class="learn-button">learn More</a>
+                <a href="#" class="learn-button">Learn More</a>
                 <p>&nbsp;</p>
             </div>
             <div class="h3-social small-12 columns">

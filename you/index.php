@@ -61,7 +61,7 @@
         <div class="expanded row">
             <div class="h2-cta large-12 small-centered columns">
 
-                <div class="row" data-equalizer>
+                <div class="each row" data-equalizer>
                     <div class="left-image show-for-large large-3 columns" data-equalizer-watch>
                         <img src="../images/tvhlp-grfx-cta-img-lt.png" alt="find out more today">
                     </div>

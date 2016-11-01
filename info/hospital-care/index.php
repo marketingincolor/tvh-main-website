@@ -4,7 +4,7 @@
         <?php //include( '../../gtm_head.php' ); ?>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta charset="utf-8">
-        <title>Make the Best Choice for You - Behavioral Health</title>
+        <title>Make the Best Choice for You - Hospital Care</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -48,9 +48,11 @@
             <div class="h1-top small-12 small-centered columns">
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
-                        <h1 class="orange">The Villages Health<sup>&reg;</sup> Integrates Behavioral Health to Better Treat the Whole Patient</h1>
-                        <p class="main">Recognizing the importance of behavioral health to your overall wellbeing, The Villages Health (TVH) has steadily expanded this component of our health care line-up. We've recently added two psychiatrists and two additional therapists, with plans to hire three more therapists in the near future. The goal is to have one therapist available to patients at each TVH Primary Care Center. Consistent with our philosophy of coordinated, patient-centered care, the therapists will work closely with your primary care physician and under the supervision of the psychiatrists.</p>
-                        <p class="main">The expansion of our behavioral health services is part of an extensive effort to treat every aspect of your health, from physical to emotional to psychological. These services are available to you as a patient receiving primary care through The Villages Health.</p>
+                        <h1 class="orange">Higher Quality Care for The Villages Health<sup>&reg;</sup> Patients Who Are Hospitalized</h1>
+                        <p class="main">Patients in the hospital are sometimes confused as to who's in charge of their care. They often see numerous doctors during the hospital stay, only to be left on their own after discharge. The experience can be confusing and even overwhelming.</p>
+                        <p class="main">An exciting innovation of The Villages Health (TVH) is the development of a dedicated hospital medicine program. A TVH Hospitalist will oversee your care throughout your hospital stay. If you're a TVH patient with Medicare Advantage, you can take advantage of this program if you're admitted to The Villages<sup>&reg;</sup> Regional Hospital. Additional TVH Hospitalists are joining the growing hospital medicine team currently seeing our patients when they are hospitalized.</p>
+                        <p class="main">In keeping with our primary care model, this TVH program is designed around allowing quality time with patients. For example, a TVH Hospitalist sees only 8-12 patients per day versus the typical Hospitalist who sees 25-35 per day. Since our Hospitalists are employed by TVH, you benefit from the care of a physician meeting our strict criteria. Our Hospitalists not only have access to your complete medical record, they also maintain frequent contact with your primary care physician.</p>
+
                     </div>
                 </div>
             </div>
@@ -65,7 +67,7 @@
                             <div class="circle-wrapper-blue">
                                 <div class="circle-container-blue">
                                     <h2>Did you know?</h2>
-                                    <p>An estimated 20% of people, age 55 and older, suffer from a mental health concern.*</p>
+                                    <p>A Hospitalist is a physician who spends time visiting and taking care of patients in the hospital.</p>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +80,7 @@
             <div class="h2-content small-12 small-centered columns">
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
-                        <p class="main">Our behavioral health services enable us to help patients dealing with problems such as anxiety, depression, sleep disorders, and other concerns. Our behavioral health staff is skilled in treating problems such as the transition from work to retirement or changes in relationships such as those with a child or spouse. Studies show that patients with any sort of physical illness, particularly chronic illnesses, are more likely to have associated behavioral health issues. We offer a full range of treatment including diagnosis, counseling, therapy, and medication management.</p>
+                        <p class="main">Many hospitalized patients require follow-up measures such as rehab, specialist visits, and home care. Often, this transitional care is overlooked as patients struggle to understand post-discharge instructions or find it difficult to make follow-up appointments. Many of these patients end up back in the hospital simply because they didn't receive properly coordinated care. For this reason, TVH provides you with a Nurse Navigator to help coordinate your care during the hospital stay and even after discharge.</p>
                     </div>
                 </div>
             </div>
@@ -92,7 +94,7 @@
                             <div class="circle-wrapper-blue">
                                 <div class="circle-container-blue">
                                     <h2>Did you know?</h2>
-                                    <p>Patients with diabetes and depression have worse outcomes, unless the depression is treated.**</p>
+                                    <p>A TVH Nurse Navigator visits patients in the hospital and at home, if needed. He or she will make phone calls to the primary care team and other providers on behalf of the patient and also ensure that patients and family members understand discharge instructions and can provide the proper follow-up care at home.</p>
                                 </div>
                             </div>
                         </div>
@@ -105,10 +107,7 @@
             <div class="h2-content small-12 small-centered columns">
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
-                        <P class="main">The Villages Health changes how health care is provided to ensure you get the care needed for better overall outcomes. By offering additional visit time and having appropriate behavioral health staff available at our Primary Care Centers, we better serve your long-term needs and those of every patient, regardless of whether the issues are behavioral, physical, or a combination of both.</p>
-                        <p class="main">These services, which are provided by The Villages Health, are covered by UnitedHealthcare<sup>&reg;</sup> Medicare Advantage plans. </p>
-                        <p class="main">For more information about The Villages Health behavioral health program, call 352-674-1700.  To learn more about Medicare Advantage plans we accept and the benefits included, contact a UnitedHealthcare license insurance agent or visit any UnitedHealthcare<sup>&reg;</sup> Medicare Store or Medicare Resource Center.</p>
-                        <p class="sub">* American Association of Geriatric Psychiatry (2008). Geriatrics and mental health—the facts.<br />** According to the US National Library of Medicine and the National Institutes of Health.</p>
+                        <P class="main">To learn more about our hospital medicine program or how The Villages Health and Medicare Advantage work together, call 352-674-8789.  If you would like to learn more about the Medicare Advantage plans we accept, call your local insurance agent licensed to represent UnitedHealthcare® Medicare Advantage or visit any UnitedHealthcare<sup>&reg;</sup> Medicare Store or Medicare Resource Center.</p>
                     </div>
                 </div>
             </div>
@@ -119,12 +118,12 @@
                 <div class="collapse row">
                     <div class="small-4 columns">
                         <P class="main">
-                            <a href="../hospital-coverage">&lt;&nbsp;Hospital Coverage</a>
+                            <a href="../behavioral-health">&lt;&nbsp;Behavioral Health</a>
                         </p>
                     </div>
                     <div class="small-4 small-offset-4 columns">
                         <P class="main">
-                            <a href="../hospital-care">Hospital Care&nbsp;&gt;</a>
+                            <a href="../hospital-coverage">Hospital Coverage&nbsp;&gt;</a>
                         </p>
                     </div>
                 </div>
