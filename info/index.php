@@ -50,7 +50,7 @@
                     <div class="small-10 small-offset-1 columns">
                         <h1 class="orange">Our World Revolves Around You</h1>
                         <p class="main">The revolutionary style of care that we offer at The Villages Health<sup>&reg;</sup> (TVH) puts you at the center of your own well-being and ensures you have a close relationship with your primary care doctor, timely access to care, outstanding service, and the best health outcomes. If you're a TVH patient with original Medicare and a traditional Medicare Supplemental policy, in order to remain our patient after January 1, 2017, you'll need to choose one of the Medicare Advantage plans we accept offered now during open enrollment. We hope you will take a few minutes to review some additional information that may help you decide if TVH is the right choice for your future health care needs.</p>
-                        <P class="main">To get more information about the Medicare Advantage plans accepted by The Villages Health, contact a UnitedHealthcare licensed insurance agent or visit one of the following locations.</p>
+                        <P class="main"><strong>To get more information about the Medicare Advantage plans accepted by The Villages Health, contact a UnitedHealthcare licensed insurance agent or visit one of the following locations.</strong></p>
                     </div>
                 </div>
 
@@ -75,7 +75,7 @@
                         <div class="each row collapse">
                             <div class="circle-wrapper">
                                 <div class="circle-container">
-                                    <h2>Visit any Medicare Resource Center to learn more.</h2><br />
+                                    <h2><br />Visit any Medicare Resource Center to learn more.</h2><br />
                                     <a class="cta-button" href="http://thevillageshealth.com/info/medicare-resource-centers">Locations</a>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
                         <h2 class="orange">Expanding Our Circle of Specialty Care</h2>
-                        <p class="main">TVH continues to grow our specialty care offerings and the services available to you. We've expanded our behavioral health program to offer treatment for every aspect of your health, from physical to emotional to psychological. We invite you to learn more about these behavioral health services available to you as a patient receiving primary care through TVH.  <a href="./behavioral-health">Click here to learn more</a>.</p>
+                        <p class="main">TVH continues to grow our specialty care offerings and the services available to you. We've expanded our behavioral health program to offer treatment for every aspect of your health, from physical to emotional to psychological. We invite you to learn more about these behavioral health services available to you as a patient receiving primary care through TVH. <a href="./behavioral-health">Click here to learn more</a>.</p>
                         <p class="main">We have added 24 providers in 2016 to ensure all of our patients have convenient access to exceptional care whenever it's needed.</p>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
                         <h2 class="orange">Higher Quality Hospital Care</h2>
-                        <p class="main">Are you aware of the higher quality care you receive if you are a TVH patient with Medicare Advantage and become hospitalized at The Villages<sup>&reg;</sup> Regional Hospital? We invite you to learn more about our hospital medicine program featuring care from TVH Hospitalists and Nurse Navigators. Click here to learn more.</p>
+                        <p class="main">Are you aware of the higher quality care you receive if you are a TVH patient with Medicare Advantage and become hospitalized at The Villages<sup>&reg;</sup> Regional Hospital? We invite you to learn more about our hospital medicine program featuring care from TVH Hospitalists and Nurse Navigators. <a href="./hospital-care">Click here to learn more</a>.</p>
                     </div>
                 </div>
                 <hr>
@@ -113,7 +113,7 @@
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
                         <h2 class="orange">Hosptials Accepting UnitedHealthcare<sup>&reg;</sup> Medicare Advantage</h2>
-                        <p class="main">If you choose to leave our community for care, we invite you to learn more about the hospitals that accept UnitedHealthcare Medicare Advantage. Click here to learn more.</p>
+                        <p class="main">If you choose to leave our community for care, we invite you to learn more about the hospitals that accept UnitedHealthcare Medicare Advantage. <a href="./hospital-coverage">Click here to learn more</a>.</p>
                     </div>
                 </div>
                 <hr>
@@ -136,7 +136,7 @@
             <div class="h4-share small-12 columns">
                 <h4>Revolutionary Care Centered on You</h4>
                 <p>We are here for you! To learn more about The Villages Health, please call, email, or click the button below.</p>
-                <a href="#" class="learn-button">Learn More</a>
+                <a href="http://thevillageshealth.com" class="learn-button">Learn More</a>
                 <p>&nbsp;</p>
             </div>
             <div class="h3-social small-12 columns">

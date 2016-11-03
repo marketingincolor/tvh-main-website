@@ -33,10 +33,10 @@
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
                         <div class="row collapse small-up-1 medium-up-3">
-                            <div class="small-centered column">
+                            <div class="panel small-centered column">
                                 <div class="row collapse">
                                     <div class="small-6 medium-centered medium-11 column">
-                                        <img src="//placehold.it/300x300" class="thumbnail" alt="">
+                                        <img src="../../images/tvhlp-grfx-loc-sspr.png" alt="Spanish Springs Location Image">
                                     </div>
                                     <div class="small-6 medium-centered medium-11 column">
                                         <h3 class="orange">Spanish Springs<sup>&reg;</sup></h3>
@@ -45,10 +45,10 @@
                                     <div class="column"></div>
                                 </div>
                             </div>
-                            <div class="small-centered column">
+                            <div class="panel small-centered column">
                                 <div class="row collapse">
                                     <div class="small-6 medium-centered medium-11 column">
-                                        <img src="//placehold.it/300x300" class="thumbnail" alt="">
+                                        <img src="../../images/tvhlp-grfx-loc-lsln.png" alt="Lake Sumter Landing Location Image">
                                     </div>
                                     <div class="small-6 medium-centered medium-11 column">
                                         <h3 class="orange">Lake Sumter Landing<sup>&reg;</sup></h3>
@@ -57,10 +57,10 @@
                                     <div class="column"></div>
                                 </div>
                             </div>
-                            <div class="small-centered column">
+                            <div class="panel small-centered column">
                                 <div class="row collapse">
                                     <div class="small-6 medium-centered medium-11 column">
-                                        <img src="//placehold.it/300x300" class="thumbnail" alt="">
+                                        <img src="../../images/tvhlp-grfx-loc-brwd.png" alt="Brownwood Location Image">
                                     </div>
                                     <div class="small-6 medium-centered medium-11 column">
                                         <h3 class="orange">Brownwood<sup>&reg;</sup></h3>

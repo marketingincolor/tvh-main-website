@@ -65,6 +65,7 @@
                         <div class="row collapse">
                             <div class="circle-wrapper-blue">
                                 <div class="circle-container-blue">
+                                    <br />
                                     <h2>Did you know?</h2>
                                     <p>Cleveland Clinic location in both Weston and West Palm Beach, Florida, accept UnitedHealthcare Medicare Advantage plans.</p>
                                 </div>
@@ -81,7 +82,7 @@
                     <div class="small-10 small-offset-1 columns">
                         <p class="main">Nationally, more than half of the top 20 cancer centers ranked by <i>U.S. News &amp; World Report</i> accept UnitedHealthcare Medicare Advantage. These include Johns Hopkins Hospital (#9), Massachusetts General (#11), Cleveland Clinic (#8) and New York-Presbyterian University Hospital of Columbia and Cornell (#17).</p>
                         <p class="main">We continue to expand the specialties and programs available to our patients. After all, coordination between specialists and primary care physicians is a key component in our delivery of better health outcomes for our patients.</p>
-                        <p class="main">For more information about the Medicare Advantage plans accepted at The Villages Health and any hospitals or physicians that participate in the UnitedHealthcare Medicare Advantage network, contact your local UnitedHealthcare insurance agent, visit a <a href="" class="orange">Medicare Resource Center</a> or a <a href="" class="orange">UnitedHealthcare Medicare Store</a>.</p>
+                        <p class="main">For more information about the Medicare Advantage plans accepted at The Villages Health and any hospitals or physicians that participate in the UnitedHealthcare Medicare Advantage network, contact your local UnitedHealthcare insurance agent, visit a <a href="http://thevillageshealth.com/info/medicare-resource-centers" class="orange">Medicare Resource Center</a> or a <a href="http://thevillageshealth.com/info/uhc-medicare-stores" class="orange">UnitedHealthcare Medicare Store</a>.</p>
                         <p class="sub">*This information includes examples based on the most current information TVH had access to. Hospitals change accepted insurance plans routinely and health care networks change frequently. In order to get the specific information on hospitals, insurance plans, and each individuals circumstances, consult a licensed insurance professional who represents UnitedHealthcare Medicare Advantage plans for clarification.</p>
                     </div>
                 </div>
@@ -112,7 +113,7 @@
                         <div class="each row collapse">
                             <div class="circle-wrapper">
                                 <div class="circle-container">
-                                    <h2>Visit any UnitedHealthcare Medicare Store to learn more.</h2>
+                                    <h2>Visit any UnitedHealthcare Medicare Store to learn more.</h2><br />
                                     <a class="cta-button" href="http://thevillageshealth.com/info/uhc-medicare-stores">Locations</a>
                                 </div>
                             </div>
@@ -122,7 +123,7 @@
                         <div class="each row collapse">
                             <div class="circle-wrapper">
                                 <div class="circle-container">
-                                    <h2>Visit any Medicare Resource Center to learn more.</h2>
+                                    <h2><br />Visit any Medicare Resource Center to learn more.</h2><br />
                                     <a class="cta-button" href="http://thevillageshealth.com/info/medicare-resource-centers">Locations</a>
                                 </div>
                             </div>

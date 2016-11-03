@@ -33,74 +33,74 @@
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
                         <div class="row collapse small-up-1 medium-up-3">
-                            <div class="small-centered column">
+                            <div class="panel small-centered column">
                                 <div class="row collapse">
                                     <div class="small-6 medium-centered medium-11 column">
-                                        <img src="//placehold.it/300x300" class="thumbnail" alt="">
+                                        <img src="../../images/tvhlp-grfx-loc-bvcc.png" alt="Belleview Care Center Location Image">
                                     </div>
                                     <div class="small-6 medium-centered medium-11 column">
-                                        <h3 class="orange">Spanish Springs<sup>&reg;</sup></h3>
-                                        <span>979 Del Mar Drive<br />352-674-7160</span>
+                                        <h3 class="orange">Belleview Care Center</h3>
+                                        <span>5051 SE 110th St,<br />Belleview<br />M-W: 9am-5pm</span>
                                     </div>
                                     <div class="column"></div>
                                 </div>
                             </div>
-                            <div class="small-centered column">
+                            <div class="panel small-centered column">
                                 <div class="row collapse">
                                     <div class="small-6 medium-centered medium-11 column">
-                                        <img src="//placehold.it/300x300" class="thumbnail" alt="">
+                                        <img src="../../images/tvhlp-grfx-loc-cocc.png" alt="Colony Care Center Location Image">
                                     </div>
                                     <div class="small-6 medium-centered medium-11 column">
-                                        <h3 class="orange">Spanish Springs<sup>&reg;</sup></h3>
-                                        <span>979 Del Mar Drive<br />352-674-7160</span>
+                                        <h3 class="orange">Colony Care Center</h3>
+                                        <span>280 Farner Place,<br />The Villages<br />M-F: 9am-5pm</span>
                                     </div>
                                     <div class="column"></div>
                                 </div>
                             </div>
-                            <div class="small-centered column">
+                            <div class="panel small-centered column">
                                 <div class="row collapse">
                                     <div class="small-6 medium-centered medium-11 column">
-                                        <img src="//placehold.it/300x300" class="thumbnail" alt="">
+                                        <img src="../../images/tvhlp-grfx-loc-crcc.png" alt="Creekside Care Center Location Image">
                                     </div>
                                     <div class="small-6 medium-centered medium-11 column">
-                                        <h3 class="orange">Spanish Springs<sup>&reg;</sup></h3>
-                                        <span>979 Del Mar Drive<br />352-674-7160</span>
+                                        <h3 class="orange">Creekside Care Center</h3>
+                                        <span>1050 Old Camp Road,<br />Bldg. 100, The Villages<br />M-F: 9am-5pm</span>
                                     </div>
                                     <div class="column"></div>
                                 </div>
                             </div>
-                            <div class="small-centered column">
+                            <div class="panel small-centered column">
                                 <div class="row collapse">
                                     <div class="small-6 medium-centered medium-11 column">
-                                        <img src="//placehold.it/300x300" class="thumbnail" alt="">
+                                        <img src="../../images/tvhlp-grfx-loc-mgcc.png" alt="Mulberry Grove Care Center Location Image">
                                     </div>
                                     <div class="small-6 medium-centered medium-11 column">
-                                        <h3 class="orange">Spanish Springs<sup>&reg;</sup></h3>
-                                        <span>979 Del Mar Drive<br />352-674-7160</span>
+                                        <h3 class="orange">Mulberry Grove Care Center</h3>
+                                        <span>8877 SE 165th Mulberry Lane,<br />The Villages<br />M-F: 9am-5pm</span>
                                     </div>
                                     <div class="column"></div>
                                 </div>
                             </div>
-                            <div class="small-centered column">
+                            <div class="panel small-centered column">
                                 <div class="row collapse">
                                     <div class="small-6 medium-centered medium-11 column">
-                                        <img src="//placehold.it/300x300" class="thumbnail" alt="">
+                                        <img src="../../images/tvhlp-grfx-loc-pncc.png" alt="Pinellas Care Center Location Image">
                                     </div>
                                     <div class="small-6 medium-centered medium-11 column">
-                                        <h3 class="orange">Spanish Springs<sup>&reg;</sup></h3>
-                                        <span>979 Del Mar Drive<br />352-674-7160</span>
+                                        <h3 class="orange">Pinellas Care Center</h3>
+                                        <span>2485 Pinellas Place,<br />The Villages<br />M-F: 9am-5pm</span>
                                     </div>
                                     <div class="column"></div>
                                 </div>
                             </div>
-                            <div class="small-centered column">
+                            <div class="panel small-centered column">
                                 <div class="row collapse">
                                     <div class="small-6 medium-centered medium-11 column">
-                                        <img src="//placehold.it/300x300" class="thumbnail" alt="">
+                                        <img src="../../images/tvhlp-grfx-loc-sbcc.png" alt="Santa Barbara Care Center Location Image">
                                     </div>
                                     <div class="small-6 medium-centered medium-11 column">
-                                        <h3 class="orange">Spanish Springs<sup>&reg;</sup></h3>
-                                        <span>979 Del Mar Drive<br />352-674-7160</span>
+                                        <h3 class="orange">Santa Barbara Care Center</h3>
+                                        <span>1575 Santa Barbara Boulevard,<br />The Villages<br />M-F: 9am-5pm</span>
                                     </div>
                                     <div class="column"></div>
                                 </div>

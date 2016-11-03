@@ -66,6 +66,7 @@
                         <div class="row collapse">
                             <div class="circle-wrapper-blue">
                                 <div class="circle-container-blue">
+                                    <br />
                                     <h2>Did you know?</h2>
                                     <p>A Hospitalist is a physician who spends time visiting and taking care of patients in the hospital.</p>
                                 </div>
@@ -91,8 +92,8 @@
                 <div class="row collapse" data-equalizer>
                     <div class="small-12 columns" data-equalizer-watch>
                         <div class="row collapse">
-                            <div class="circle-wrapper-blue">
-                                <div class="circle-container-blue">
+                            <div class="circle-wrapper-blue-big">
+                                <div class="circle-container-blue-big">
                                     <h2>Did you know?</h2>
                                     <p>A TVH Nurse Navigator visits patients in the hospital and at home, if needed. He or she will make phone calls to the primary care team and other providers on behalf of the patient and also ensure that patients and family members understand discharge instructions and can provide the proper follow-up care at home.</p>
                                 </div>
@@ -107,7 +108,7 @@
             <div class="h2-content small-12 small-centered columns">
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
-                        <P class="main">To learn more about our hospital medicine program or how The Villages Health and Medicare Advantage work together, call 352-674-8789.  If you would like to learn more about the Medicare Advantage plans we accept, call your local insurance agent licensed to represent UnitedHealthcare® Medicare Advantage or visit any UnitedHealthcare<sup>&reg;</sup> Medicare Store or Medicare Resource Center.</p>
+                        <P class="main">To learn more about our hospital medicine program or how The Villages Health and Medicare Advantage work together, call <strong>352-674-8789</strong>.  If you would like to learn more about the Medicare Advantage plans we accept, call your local insurance agent licensed to represent UnitedHealthcare® Medicare Advantage or visit any <a href="http://thevillageshealth.com/info/uhc-medicare-stores" class="orange">UnitedHealthcare<sup>&reg;</sup> Medicare Store</a> or <a href="http://thevillageshealth.com/info/medicare-resource-centers" class="orange">Medicare Resource Center</a>.</p>
                     </div>
                 </div>
             </div>
@@ -137,7 +138,7 @@
                         <div class="each row collapse">
                             <div class="circle-wrapper">
                                 <div class="circle-container">
-                                    <h2>Visit any UnitedHealthcare Medicare Store to learn more.</h2>
+                                    <h2>Visit any UnitedHealthcare Medicare Store to learn more.</h2><br />
                                     <a class="cta-button" href="http://thevillageshealth.com/info/uhc-medicare-stores">Locations</a>
                                 </div>
                             </div>
@@ -147,7 +148,7 @@
                         <div class="each row collapse">
                             <div class="circle-wrapper">
                                 <div class="circle-container">
-                                    <h2>Visit any Medicare Resource Center to learn more.</h2>
+                                    <h2><br />Visit any Medicare Resource Center to learn more.</h2><br />
                                     <a class="cta-button" href="http://thevillageshealth.com/info/medicare-resource-centers">Locations</a>
                                 </div>
                             </div>

@@ -21,8 +21,8 @@ body {
 button { border-radius:50%; }
 .green { color: rgb(45, 122, 61) !important; }
 .orange { color: rgb(219, 104, 41) !important; }
-.return { background-color: rgb(236, 236, 236); }
-.return a { color: rgb(50, 147, 165); }
+.return { background-color: rgb(236, 236, 236); text-align:left; }
+.return a { color: rgb(50, 147, 165); padding-left:1em; }
 .logo{ background-color:rgb(26, 71, 35); padding:10px; }
 .video, .h1-intro, .h1-top, .h2-content, .h2-know { background-color: rgb(250, 250, 250);}
 .h1-intro h1 { color: rgb(45, 122, 61) !important; }
@@ -34,7 +34,7 @@ button { border-radius:50%; }
 .h2-cta .each { padding:36px 0; }
 .h2-know .know-button { color: rgb(255, 255, 255); background-color: rgb(168, 80, 32); border-radius:30px; padding:0.5em 0.75em; }
 .h2-know .know-button:hover { background-color:rgb(255, 129, 61); }
-
+.h2-know p { line-height: 1.1 !important; }
 .h3-social { background-color: rgb(53,148,167); }
 .h3-social h3 { color: rgb(255, 255, 255); }
 .h4-share { background-color: rgb(239,247,248); }
@@ -51,8 +51,8 @@ button { border-radius:50%; }
 .h4-like a:hover { color: rgb(193, 248, 255); }
 .circle-wrapper { border-radius: 50%; background-color: rgb(219, 104, 41); margin:auto; }
 .circle-container { border-radius: 50%; border: solid 2px rgb(255, 129, 61); background-color: rgb(219, 104, 41); position: relative; }
-.circle-wrapper-blue { border-radius: 50%; background-color: rgb(50, 147, 165); margin:auto; }
-.circle-container-blue { border-radius: 50%; border: solid 2px rgb(71, 192, 216); background-color: rgb(50, 147, 165); position: relative; }
+.circle-wrapper-blue, .circle-wrapper-blue-big { border-radius: 50%; background-color: rgb(50, 147, 165); margin:auto; }
+.circle-container-blue, .circle-container-blue-big { border-radius: 50%; border: solid 2px rgb(71, 192, 216); background-color: rgb(50, 147, 165); position: relative; }
 .right-image { position:relative; }
 .right-image img { bottom:0; left:0; position:absolute; }
 .footer { min-height:3em;}
@@ -81,6 +81,8 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
 .share-li:hover { background:url(./images/tvhlp-grfx-social-btn-hov-li.png) no-repeat center center; }
 .share-li:active { background:url(./images/tvhlp-grfx-social-btn-clk-li.png) no-repeat center center; }
 
+.panel { padding: 1em 1em; }
+.panel h3 { font-size:1.375em !important; margin:0.5em 0 !important; }
 /* MEDIA QUERIES */
 /* Small screens */
 @media only screen {
@@ -90,13 +92,18 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
     p.main { font-size: 1.25em !important; margin-bottom:36px !important; }
     .info p.main {margin:36px 0 !important; }
     p.sub { font-size: 0.750em /*1.5em*/ !important; margin-bottom:2.25em !important; }
-    .circle-container, .circle-container-blue { width: 16em; height: 16em; margin:auto; padding:3em 0.5em; }
-    .circle-wrapper, .circle-wrapper-blue { width: 16.5em; height: 16.5em; padding-top:4px; }
-    .h2-cta h2 { font-size:1.0em; }
+    .circle-container, .circle-container-blue { width: 16em; height: 16em; margin:auto; padding:3em 2em; }
+    .circle-wrapper, .circle-wrapper-blue { width: 17em; height: 17em; padding-top:8px; }
+    .circle-container-blue-big { width: 19em; height: 19em; margin:auto; padding:2em 2em; }
+    .circle-wrapper-blue-big { width: 20em; height: 20em; padding-top:8px; }
+    .info .h2-cta .cta-button { vertical-align:bottom; display:inline-block; }
+    .h2-cta h2, .h2-know h2 { font-size:1.125em; }
     .h2-content h2 { font-size:1em; padding:24px 0 18px 0; }
     .h2-cta p { font-size:0.825em; }
     .h2-cta .cta-button, .h4-share .share-button  { font-size:0.825em; font-weight:bold; }
     .h3-social h3 { font-size: 1.1875em; margin:2.65em 0 0.50em 0; }
+    .info .h3-social h3 { font-size: 1.1875em; margin:0.50em 0; }
+    .info .h3-social div { margin-bottom:0.5em; }
     .h4-share h4 { font-size: 1.185em; margin:1.675em 0 0.8750em 0; }
     .h4-like h4 { font-size: 1.185em; margin:0.8750em 0; }
     .h1-share h1 { margin:1.250em 0 0.5em 0; }
@@ -115,8 +122,11 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
     p.more { font-size: 1.375em !important;}
     p.sub { font-size: 0.750em !important; margin-bottom:2.25em !important;}
     .circle-container, .circle-container-blue { width: 18em; height: 18em; margin:auto; padding:3em 2em; }
-    .circle-wrapper, .circle-wrapper-blue { width: 18.5em; height: 18.5em; padding-top:4px; }
-    .h2-cta h2{ font-size:1.125em; }
+    .circle-wrapper, .circle-wrapper-blue { width: 19em; height: 19em; padding-top:8px; }
+    .circle-container-blue-big { width: 19em; height: 19em; margin:auto; padding:2em 2em; }
+    .circle-wrapper-blue-big { width: 20em; height: 20em; padding-top:8px; }
+    .info .h2-cta .cta-button { vertical-align:bottom; display:inline-block; }
+    .h2-cta h2, .h2-know h2 { font-size:1.25em; }
     .h2-content h2 { font-size:1.5em; padding:36px 0 24px 0; }
     .h2-cta p { font-size:0.825em; }
     .h2-cta .cta-button, .h4-share .share-button { font-size:0.825em; font-weight:bold; }
@@ -136,14 +146,18 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
     p.sub { font-size: 0.750em !important; margin-bottom:36px !important;}
     .circle-container, .circle-container-blue { width: 22em; height: 22em; margin:auto; padding:3.5em 2em; }
     .circle-container p, .circle-container-blue p { margin:1.65em 0em !important; }
-    .circle-wrapper, .circle-wrapper-blue { width: 22.5em; height: 22.5em; padding-top:4px; }
+    .circle-wrapper, .circle-wrapper-blue { width: 23em; height: 23em; padding-top:8px; }
+    .circle-container-blue-big { width: 24em; height: 24em; margin:auto; padding:3em; }
+    .circle-wrapper-blue-big { width: 25em; height: 25em; padding-top:8px; }
     .info .circle-container { padding:5em 2em; }
-    .info .h2-cta .cta-button { vertical-align:bottom; }
-    .h2-cta h2 { font-size:1.5em; margin:0 !important; }
+    .info .h2-cta .cta-button { vertical-align:bottom; display:inline-block; }
+    .h2-cta h2, .h2-know h2 { font-size:1.5em; margin:0 !important; }
     .h2-content h2 { font-size:1.5em; padding:36px 0 24px 0; }
     .h2-cta p { font-size:1.125em; }
     .h2-cta .cta-button, .h4-share .share-button { font-size:1.25em; font-weight:bold; }
     .h3-social h3 { font-size: 1.5em; margin:2.375em 0 0.750em 0; }
+    .info .h3-social h3 { font-size: 1.5em; margin:0.750em 0; }
+    .info .h3-social div { margin-bottom:0.75em; }
     .h4-share h4 { font-size: 1.5em; margin:2.375em 0 0.750em 0; }
     .h4-like h4 { font-size: 1.5em; margin:30px 0; }
     .footer div { padding:45px 0; }
