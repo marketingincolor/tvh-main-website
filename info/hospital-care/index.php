@@ -32,7 +32,7 @@
         <?php //include( '../../gtm_body.php' ); ?>
         <div class="row">
             <div class="logo small-12 small-centered columns align-self-middle">
-                <div class="row">
+                <div class="row collapse">
                     <div class="small-12 small-centered columns">
                         <img src="../../images/tvhlp-grfx-logo.png" alt="The Villages Health">
                     </div>
@@ -108,7 +108,7 @@
             <div class="h2-content small-12 small-centered columns">
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
-                        <P class="main">To learn more about our hospital medicine program or how The Villages Health and Medicare Advantage work together, call <strong>352-674-8789</strong>.  If you would like to learn more about the Medicare Advantage plans we accept, call your local insurance agent licensed to represent UnitedHealthcare® Medicare Advantage or visit any <a href="http://thevillageshealth.com/info/uhc-medicare-stores" class="orange">UnitedHealthcare<sup>&reg;</sup> Medicare Store</a> or <a href="http://thevillageshealth.com/info/medicare-resource-centers" class="orange">Medicare Resource Center</a>.</p>
+                        <P class="main">To learn more about our hospital medicine program or how The Villages Health and Medicare Advantage work together, call <strong>352-674-8789</strong>.  If you would like to learn more about the Medicare Advantage plans we accept, call your local insurance agent licensed to represent UnitedHealthcare<sup>&reg;</sup> Medicare Advantage or visit any <a href="http://thevillageshealth.com/info/uhc-medicare-stores" class="orange" style="font-weight:bold; text-decoration:underline;">UnitedHealthcare<sup>&reg;</sup> Medicare Store</a> or <a href="http://thevillageshealth.com/info/medicare-resource-centers" class="orange" style="font-weight:bold; text-decoration:underline;">Medicare Resource Center</a>.</p>
                     </div>
                 </div>
             </div>

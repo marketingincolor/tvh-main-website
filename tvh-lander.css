@@ -21,8 +21,8 @@ body {
 button { border-radius:50%; }
 .green { color: rgb(45, 122, 61) !important; }
 .orange { color: rgb(219, 104, 41) !important; }
-.return { background-color: rgb(236, 236, 236); text-align:left; }
-.return a { color: rgb(50, 147, 165); padding-left:1em; }
+.return { background-color: rgb(236, 236, 236); text-align:left; display:inline-flex; }
+.return a { color: rgb(50, 147, 165); padding:.3125em 1em; }
 .logo{ background-color:rgb(26, 71, 35); padding:10px; }
 .video, .h1-intro, .h1-top, .h2-content, .h2-know { background-color: rgb(250, 250, 250);}
 .h1-intro h1 { color: rgb(45, 122, 61) !important; }
@@ -34,7 +34,7 @@ button { border-radius:50%; }
 .h2-cta .each { padding:36px 0; }
 .h2-know .know-button { color: rgb(255, 255, 255); background-color: rgb(168, 80, 32); border-radius:30px; padding:0.5em 0.75em; }
 .h2-know .know-button:hover { background-color:rgb(255, 129, 61); }
-.h2-know p { line-height: 1.1 !important; }
+.h2-know p { line-height: 1.1 !important; font-size:1.125em !important; }
 .h3-social { background-color: rgb(53,148,167); }
 .h3-social h3 { color: rgb(255, 255, 255); }
 .h4-share { background-color: rgb(239,247,248); }
@@ -44,7 +44,7 @@ button { border-radius:50%; }
 .info .h4-share { background-color: rgb(45, 122, 61); }
 .info .h4-share h4, .info .h4-share { color: rgb(255, 255, 255); }
 .info .h4-share .learn-button { color: rgb(255, 255, 255); background-color: rgb(26, 71, 35); border-radius:30px; padding:0.5em 1.5em; margin-bottom:1em;}
-
+.info .h4-share .learn-button:hover { background-color:rgb(55,148,73); }
 .h4-share .share-button:hover { background-color:rgb(53,148,167); }
 .h4-like { background-color: rgb(29, 79, 89); }
 .h4-like a { color: rgb(255, 255, 255); }
@@ -57,7 +57,6 @@ button { border-radius:50%; }
 .right-image img { bottom:0; left:0; position:absolute; }
 .footer { min-height:3em;}
 .footer a, .footer a:hover { color:rgb(0, 0, 0); text-decoration:underline;}
-
 /* Sub Page Components - share and success */
 .h1-share h1 { font-size: 1.75em !important; color: rgb(37, 102, 115) !important; }
 form {}
@@ -68,18 +67,18 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
 .rtn-button { color: rgb(255, 255, 255); background-color: rgb(37, 102, 115); border-radius:30px; padding:0.5em 0.75em; margin-bottom:1em; font-family: 'Roboto', sans-serif !important; font-weight:bold; font-size:24px; }
 .rtn-button:hover { background-color:rgb(53,148,167); color: rgb(255, 255, 255); }
 
-.share-fb {display:inline-block; width:76px; height:76px; background:url(./images/tvhlp-grfx-social-btn-fb.png) no-repeat center center; }
-.share-fb:hover { background:url(./images/tvhlp-grfx-social-btn-hov-fb.png) no-repeat center center; }
-.share-fb:active { background:url(./images/tvhlp-grfx-social-btn-clk-fb.png) no-repeat center center; }
-.share-tw {display:inline-block; width:76px; height:76px; background:url(./images/tvhlp-grfx-social-btn-tw.png) no-repeat center center; }
-.share-tw:hover { background:url(./images/tvhlp-grfx-social-btn-hov-tw.png) no-repeat center center; }
-.share-tw:active { background:url(./images/tvhlp-grfx-social-btn-clk-tw.png) no-repeat center center; }
-.share-em {display:inline-block; width:76px; height:76px; background:url(./images/tvhlp-grfx-social-btn-em.png) no-repeat center center; }
-.share-em:hover { background:url(./images/tvhlp-grfx-social-btn-hov-em.png) no-repeat center center; }
-.share-em:active { background:url(./images/tvhlp-grfx-social-btn-clk-em.png) no-repeat center center; }
-.share-li {display:inline-block; width:76px; height:76px; background:url(./images/tvhlp-grfx-social-btn-li.png) no-repeat center center; }
-.share-li:hover { background:url(./images/tvhlp-grfx-social-btn-hov-li.png) no-repeat center center; }
-.share-li:active { background:url(./images/tvhlp-grfx-social-btn-clk-li.png) no-repeat center center; }
+.share-fb { background:url(./images/tvhlp-grfx-social-btn-fb.png) no-repeat center center / contain; }
+.share-fb:hover { background:url(./images/tvhlp-grfx-social-btn-hov-fb.png) no-repeat center center / contain; }
+.share-fb:active { background:url(./images/tvhlp-grfx-social-btn-clk-fb.png) no-repeat center center / contain; }
+.share-tw {  background:url(./images/tvhlp-grfx-social-btn-tw.png) no-repeat center center / contain; }
+.share-tw:hover { background:url(./images/tvhlp-grfx-social-btn-hov-tw.png) no-repeat center center / contain; }
+.share-tw:active { background:url(./images/tvhlp-grfx-social-btn-clk-tw.png) no-repeat center center / contain; }
+.share-em { background:url(./images/tvhlp-grfx-social-btn-em.png) no-repeat center center / contain; }
+.share-em:hover { background:url(./images/tvhlp-grfx-social-btn-hov-em.png) no-repeat center center / contain; }
+.share-em:active { background:url(./images/tvhlp-grfx-social-btn-clk-em.png) no-repeat center center / contain; }
+.share-li { background:url(./images/tvhlp-grfx-social-btn-li.png) no-repeat center center / contain; }
+.share-li:hover { background:url(./images/tvhlp-grfx-social-btn-hov-li.png) no-repeat center center / contain; }
+.share-li:active { background:url(./images/tvhlp-grfx-social-btn-clk-li.png) no-repeat center center / contain; }
 
 .panel { padding: 1em 1em; }
 .panel h3 { font-size:1.375em !important; margin:0.5em 0 !important; }
@@ -90,7 +89,7 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
     p { font-size: 1em /*2.250em*/ !important;}
     p.more { font-size: 1.375em /*2.875em*/ !important;}
     p.main { font-size: 1.25em !important; margin-bottom:36px !important; }
-    .info p.main {margin:36px 0 !important; }
+    .info p.main {margin:18px 0 !important; }
     p.sub { font-size: 0.750em /*1.5em*/ !important; margin-bottom:2.25em !important; }
     .circle-container, .circle-container-blue { width: 16em; height: 16em; margin:auto; padding:3em 2em; }
     .circle-wrapper, .circle-wrapper-blue { width: 17em; height: 17em; padding-top:8px; }
@@ -98,7 +97,9 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
     .circle-wrapper-blue-big { width: 20em; height: 20em; padding-top:8px; }
     .info .h2-cta .cta-button { vertical-align:bottom; display:inline-block; }
     .h2-cta h2, .h2-know h2 { font-size:1.125em; }
-    .h2-content h2 { font-size:1em; padding:24px 0 18px 0; }
+    .h2-content h2 { font-size:1.375em; padding:24px 0 0 0; }
+    .info .h2-cta h2 { font-size:1.375em; }
+    .info .h2-content h2 { font-size:1.185em; }
     .h2-cta p { font-size:0.825em; }
     .h2-cta .cta-button, .h4-share .share-button  { font-size:0.825em; font-weight:bold; }
     .h3-social h3 { font-size: 1.1875em; margin:2.65em 0 0.50em 0; }
@@ -107,6 +108,11 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
     .h4-share h4 { font-size: 1.185em; margin:1.675em 0 0.8750em 0; }
     .h4-like h4 { font-size: 1.185em; margin:0.8750em 0; }
     .h1-share h1 { margin:1.250em 0 0.5em 0; }
+    .mrc .h1-top .panel div { text-align:center; }
+    .share-fb {display:inline-block; width:38px; height:38px; }
+    .share-tw {display:inline-block; width:38px; height:38px; }
+    .share-em {display:inline-block; width:38px; height:38px; }
+    .share-li {display:inline-block; width:38px; height:38px; }
     .footer div { padding:24px 0; }
 } /* Define mobile styles */
 
@@ -127,10 +133,17 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
     .circle-wrapper-blue-big { width: 20em; height: 20em; padding-top:8px; }
     .info .h2-cta .cta-button { vertical-align:bottom; display:inline-block; }
     .h2-cta h2, .h2-know h2 { font-size:1.25em; }
-    .h2-content h2 { font-size:1.5em; padding:36px 0 24px 0; }
+    .info .h2-cta h2 { font-size:1.5em; }
+    .h2-content h2 { font-size:1.5em; padding:36px 0 0 0; }
     .h2-cta p { font-size:0.825em; }
     .h2-cta .cta-button, .h4-share .share-button { font-size:0.825em; font-weight:bold; }
+    .h2-know p { font-size:1em !important; }
     .h1-share h1 { margin:2.250em 0 0.5em 0; }
+    .mrc .h1-top .panel div:nth-child(2) {text-align:left;}
+    .share-fb {display:inline-block; width:76px; height:76px; }
+    .share-tw {display:inline-block; width:76px; height:76px; }
+    .share-em {display:inline-block; width:76px; height:76px; }
+    .share-li {display:inline-block; width:76px; height:76px; }
     .footer div { padding:36px 0; }
 } /* min-width 641px, medium screens */
 
@@ -141,19 +154,22 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
     .h1-intro h1, .h1-top h1 { font-size: 1.75em !important; margin:36px 0; }
     p { font-size: 1.125em !important;}
     p.main { font-size: 1.25em !important; margin-bottom:36px !important; }
+    p.main.plus { font-size:1.375em !important; }
     .info p.main {margin:36px 0 !important; }
     p.more { font-size: 1.375em !important;}
     p.sub { font-size: 0.750em !important; margin-bottom:36px !important;}
-    .circle-container, .circle-container-blue { width: 22em; height: 22em; margin:auto; padding:3.5em 2em; }
-    .circle-container p, .circle-container-blue p { margin:1.65em 0em !important; }
-    .circle-wrapper, .circle-wrapper-blue { width: 23em; height: 23em; padding-top:8px; }
+    .circle-container, .circle-container-blue { width: 20.125em; height: 20.125em; margin:auto; padding:3.5em 2em; }
+    .circle-container p { margin:1.65em 0em !important; }
+    .circle-container-blue p, .circle-container-blue-big p { margin:0.75em 0em !important; }
+    .circle-wrapper, .circle-wrapper-blue { width: 21.125em; height: 21.125em; padding-top:8px; }
     .circle-container-blue-big { width: 24em; height: 24em; margin:auto; padding:3em; }
     .circle-wrapper-blue-big { width: 25em; height: 25em; padding-top:8px; }
-    .info .circle-container { padding:5em 2em; }
+    .info .circle-container { padding:3.5em 2em; }
     .info .h2-cta .cta-button { vertical-align:bottom; display:inline-block; }
     .h2-cta h2, .h2-know h2 { font-size:1.5em; margin:0 !important; }
-    .h2-content h2 { font-size:1.5em; padding:36px 0 24px 0; }
+    .h2-content h2 { font-size:1.5em; padding:36px 0 0 0; }
     .h2-cta p { font-size:1.125em; }
+    .h2-know p { font-size:1.125em !important; }
     .h2-cta .cta-button, .h4-share .share-button { font-size:1.25em; font-weight:bold; }
     .h3-social h3 { font-size: 1.5em; margin:2.375em 0 0.750em 0; }
     .info .h3-social h3 { font-size: 1.5em; margin:0.750em 0; }

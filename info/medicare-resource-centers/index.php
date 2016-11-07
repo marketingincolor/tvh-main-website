@@ -12,11 +12,11 @@
         <link href="../../tvh-lander.css" rel="stylesheet" type="text/css" />
         <script type='text/javascript'></script>
     </head>
-    <body class="info">
+    <body class="info mrc">
         <?php //include( '../../gtm_body.php' ); ?>
         <div class="row">
             <div class="logo small-12 small-centered columns align-self-middle">
-                <div class="row">
+                <div class="row collapse">
                     <div class="small-12 small-centered columns">
                         <img src="../../images/tvhlp-grfx-logo.png" alt="The Villages Health">
                     </div>
@@ -35,10 +35,10 @@
                         <div class="row collapse small-up-1 medium-up-3">
                             <div class="panel small-centered column">
                                 <div class="row collapse">
-                                    <div class="small-6 medium-centered medium-11 column">
+                                    <div class="small-11 small-centered column">
                                         <img src="../../images/tvhlp-grfx-loc-bvcc.png" alt="Belleview Care Center Location Image">
                                     </div>
-                                    <div class="small-6 medium-centered medium-11 column">
+                                    <div class="small-11 small-centered column">
                                         <h3 class="orange">Belleview Care Center</h3>
                                         <span>5051 SE 110th St,<br />Belleview<br />M-W: 9am-5pm</span>
                                     </div>
@@ -47,10 +47,10 @@
                             </div>
                             <div class="panel small-centered column">
                                 <div class="row collapse">
-                                    <div class="small-6 medium-centered medium-11 column">
+                                    <div class="small-11 small-centered column">
                                         <img src="../../images/tvhlp-grfx-loc-cocc.png" alt="Colony Care Center Location Image">
                                     </div>
-                                    <div class="small-6 medium-centered medium-11 column">
+                                    <div class="small-11 small-centered column">
                                         <h3 class="orange">Colony Care Center</h3>
                                         <span>280 Farner Place,<br />The Villages<br />M-F: 9am-5pm</span>
                                     </div>
@@ -59,10 +59,10 @@
                             </div>
                             <div class="panel small-centered column">
                                 <div class="row collapse">
-                                    <div class="small-6 medium-centered medium-11 column">
+                                    <div class="small-11 small-centered column">
                                         <img src="../../images/tvhlp-grfx-loc-crcc.png" alt="Creekside Care Center Location Image">
                                     </div>
-                                    <div class="small-6 medium-centered medium-11 column">
+                                    <div class="small-11 small-centered column">
                                         <h3 class="orange">Creekside Care Center</h3>
                                         <span>1050 Old Camp Road,<br />Bldg. 100, The Villages<br />M-F: 9am-5pm</span>
                                     </div>
@@ -71,10 +71,10 @@
                             </div>
                             <div class="panel small-centered column">
                                 <div class="row collapse">
-                                    <div class="small-6 medium-centered medium-11 column">
+                                    <div class="small-11 small-centered column">
                                         <img src="../../images/tvhlp-grfx-loc-mgcc.png" alt="Mulberry Grove Care Center Location Image">
                                     </div>
-                                    <div class="small-6 medium-centered medium-11 column">
+                                    <div class="small-11 small-centered column">
                                         <h3 class="orange">Mulberry Grove Care Center</h3>
                                         <span>8877 SE 165th Mulberry Lane,<br />The Villages<br />M-F: 9am-5pm</span>
                                     </div>
@@ -83,10 +83,10 @@
                             </div>
                             <div class="panel small-centered column">
                                 <div class="row collapse">
-                                    <div class="small-6 medium-centered medium-11 column">
+                                    <div class="small-11 small-centered column">
                                         <img src="../../images/tvhlp-grfx-loc-pncc.png" alt="Pinellas Care Center Location Image">
                                     </div>
-                                    <div class="small-6 medium-centered medium-11 column">
+                                    <div class="small-11 small-centered column">
                                         <h3 class="orange">Pinellas Care Center</h3>
                                         <span>2485 Pinellas Place,<br />The Villages<br />M-F: 9am-5pm</span>
                                     </div>
@@ -95,21 +95,22 @@
                             </div>
                             <div class="panel small-centered column">
                                 <div class="row collapse">
-                                    <div class="small-6 medium-centered medium-11 column">
+                                    <div class="small-11 small-centered column">
                                         <img src="../../images/tvhlp-grfx-loc-sbcc.png" alt="Santa Barbara Care Center Location Image">
                                     </div>
-                                    <div class="small-6 medium-centered medium-11 column">
+                                    <div class="small-11 small-centered column">
                                         <h3 class="orange">Santa Barbara Care Center</h3>
                                         <span>1575 Santa Barbara Boulevard,<br />The Villages<br />M-F: 9am-5pm</span>
                                     </div>
                                     <div class="column"></div>
                                 </div>
                             </div>
+                        </div>
                     </div>
                 </div>
+                <br /><br />
             </div>
         </div>
-
         <div class="row footer">
             <div class="small-12 columns">
                 &copy; <?php echo date("Y") ?> The Villages Health
