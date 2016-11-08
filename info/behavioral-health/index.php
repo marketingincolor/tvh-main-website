@@ -32,7 +32,7 @@
         <?php //include( '../../gtm_body.php' ); ?>
         <div class="row">
             <div class="logo small-12 small-centered columns align-self-middle">
-                <div class="row collapse">
+                <div class="row">
                     <div class="small-12 small-centered columns">
                         <img src="../../images/tvhlp-grfx-logo.png" alt="The Villages Health">
                     </div>
@@ -109,7 +109,7 @@
                     <div class="small-10 small-offset-1 columns">
                         <P class="main">The Villages Health changes how health care is provided to ensure you get the care needed for better overall outcomes. By offering additional visit time and having appropriate behavioral health staff available at our Primary Care Centers, we better serve your long-term needs and those of every patient, regardless of whether the issues are behavioral, physical, or a combination of both.</p>
                         <p class="main plus"><strong>These services, which are provided by The Villages Health, are covered by UnitedHealthcare<sup>&reg;</sup> Medicare Advantage plans. </strong></p>
-                        <p class="main">For more information about The Villages Health behavioral health program, call <strong>352-674-1700</strong>.  To learn more about Medicare Advantage plans we accept and the benefits included, contact a UnitedHealthcare license insurance agent or visit any <a href="http://thevillageshealth.com/info/uhc-medicare-stores" class="orange" style="font-weight:bold; text-decoration:underline;">UnitedHealthcare<sup>&reg;</sup> Medicare Store</a> or <a href="http://thevillageshealth.com/info/medicare-resource-centers" class="orange" style="font-weight:bold; text-decoration:underline;">Medicare Resource Center</a>.</p>
+                        <p class="main">For more information about The Villages Health behavioral health program, call <strong>352-674-1700</strong>.  To learn more about Medicare Advantage plans we accept and the benefits included, contact a UnitedHealthcare license insurance agent or visit any <a href="http://thevillageshealth.com/info/uhc-medicare-stores" class="orange" style="font-weight:bold; text-decoration:underline;">UnitedHealthcare</a><sup class="orange">&reg;</sup> <a href="http://thevillageshealth.com/info/uhc-medicare-stores" class="orange" style="font-weight:bold; text-decoration:underline;">Medicare Store</a> or <a href="http://thevillageshealth.com/info/medicare-resource-centers" class="orange" style="font-weight:bold; text-decoration:underline;">Medicare Resource Center</a>.</p>
                         <p class="sub">* American Association of Geriatric Psychiatry (2008). Geriatrics and mental health—the facts.<br />** According to the US National Library of Medicine and the National Institutes of Health.</p>
                     </div>
                 </div>
