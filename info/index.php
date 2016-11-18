@@ -89,6 +89,17 @@
             <div class="h2-content large-12 small-centered columns">
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
+                        <h2 class="orange">Understanding the Clinical Value of Medicare Advantage</h2>
+                        <p class="main">Learn how Medicare Advantage is helping to transform health care for the better, resulting in better health outcomes for patients. <a href="../study">Click here to learn more and watch video</a>.</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="h2-content large-12 small-centered columns">
+                <div class="collapse row">
+                    <div class="small-10 small-offset-1 columns">
                         <h2 class="orange">Expanding Our Circle of Specialty Care</h2>
                         <p class="main">TVH continues to grow our specialty care offerings and the services available to you. We've expanded our behavioral health program to offer treatment for every aspect of your health, from physical to emotional to psychological. We invite you to learn more about these behavioral health services available to you as a patient receiving primary care through TVH. <a href="./behavioral-health">Click here to learn more</a>.</p>
                         <p class="main">We have added 24 providers in 2016 to ensure all of our patients have convenient access to exceptional care whenever it's needed.</p>
@@ -101,8 +112,8 @@
             <div class="h2-content large-12 small-centered columns">
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
-                        <h2 class="orange">Higher Quality Hospital Care</h2>
-                        <p class="main">Are you aware of the higher quality care you receive if you are a TVH patient with Medicare Advantage and become hospitalized at The Villages<sup>&reg;</sup> Regional Hospital? We invite you to learn more about our hospital medicine program featuring care from TVH Hospitalists and Nurse Navigators. <a href="./hospital-care">Click here to learn more</a>.</p>
+                        <h2 class="orange">Hospital Care for The Villages Health Patients with Medicare Advantage</h2>
+                        <p class="main">Are you aware that a TVH Hospitalist and Nurse Navigator care for TVH patients with Medicare Advantage if they become hospitalized at The Villages<sup>&reg;</sup> Regional Hospital? We invite you to learn more about our hospital medicine program.  <a href="./hospital-care">Click here to learn more</a>.</p>
                     </div>
                 </div>
                 <hr>
@@ -112,8 +123,8 @@
             <div class="h2-content large-12 small-centered columns">
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
-                        <h2 class="orange">Hospitals Accepting UnitedHealthcare<sup>&reg;</sup> Medicare Advantage</h2>
-                        <p class="main">If you choose to leave our community for care, we invite you to learn more about the hospitals that accept UnitedHealthcare Medicare Advantage. <a href="./hospital-coverage">Click here to learn more</a>.</p>
+                        <h2 class="orange">Hospitals Accepting Medicare Advantage</h2>
+                        <p class="main">If you choose to leave our community for care, we invite you to learn more about the hospitals that accept Medicare Advantage. <a href="./hospital-coverage">Click here to learn more</a>.</p>
                     </div>
                 </div>
                 <hr>

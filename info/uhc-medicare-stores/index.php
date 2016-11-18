@@ -40,7 +40,7 @@
                                     </div>
                                     <div class="small-11 small-centered columnn">
                                         <h3 class="orange">Spanish Springs<sup>&reg;</sup></h3>
-                                        <span>979 Del Mar Drive<br />352-674-7160</span>
+                                        <span>979 Del Mar Drive<br />352-674-7160<br />M-F: 9am-5pm</span>
                                     </div>
                                     <div class="column"></div>
                                 </div>
@@ -52,7 +52,7 @@
                                     </div>
                                     <div class="small-11 small-centered column">
                                         <h3 class="orange">Lake Sumter Landing<sup>&reg;</sup></h3>
-                                        <span>1049 Lake Sumter Landing<br />352-391-5262</span>
+                                        <span>1049 Lake Sumter Landing<br />352-391-5262<br />M-F: 9am-5pm</span>
                                     </div>
                                     <div class="column"></div>
                                 </div>
@@ -64,7 +64,7 @@
                                     </div>
                                     <div class="small-11 small-centered column">
                                         <h3 class="orange">Brownwood<sup>&reg;</sup></h3>
-                                        <span>2627 W Torch Lake Drive<br />352-674-1240</span>
+                                        <span>2627 W Torch Lake Drive<br />352-674-1240<br />M-F: 9am-5pm</span>
                                     </div>
                                     <div class="column"></div>
                                 </div>

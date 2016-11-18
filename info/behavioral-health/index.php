@@ -32,7 +32,7 @@
         <?php //include( '../../gtm_body.php' ); ?>
         <div class="row">
             <div class="logo small-12 small-centered columns align-self-middle">
-                <div class="row">
+                <div class="row collapse">
                     <div class="small-12 small-centered columns">
                         <img src="../../images/tvhlp-grfx-logo.png" alt="The Villages Health">
                     </div>
@@ -121,7 +121,7 @@
                 <div class="collapse row">
                     <div class="small-4 columns">
                         <P class="main">
-                            <a href="../hospital-coverage">&lt;&nbsp;Hospital Coverage</a>
+                            <a href="../../study">&lt;&nbsp;Medicare Advantage</a>
                         </p>
                     </div>
                     <div class="small-4 small-offset-4 columns">
