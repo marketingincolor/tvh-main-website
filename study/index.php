@@ -60,7 +60,7 @@
                 </div>
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
-                        <p class="main">This is a presentation by Jeff Lowenkron, MD, MPP, Chief Medical Officer, The Villages Health, presented at the National Medicare Education Week Health Expo on September 15, 2016. Also featured are questions from the audience</p>
+                        <p class="main">This is a presentation by Jeff Lowenkron, MD, MPP, Chief Medical Officer, The Villages Health, presented at the National Medicare Education Week Health Expo on September 15, 2016. Also featured are questions from the audience.</p>
                     </div>
                 </div>
             </div>
