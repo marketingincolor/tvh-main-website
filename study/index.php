@@ -27,6 +27,21 @@
             $temp.remove();
         }
         </script>
+        <style>
+        .video {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            padding-top: 25px;
+            height: 0;
+        }
+        .video iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        </style>
     </head>
     <body class="info">
         <?php //include( '../gtm_body.php' ); ?>
@@ -55,7 +70,7 @@
                 </div>
                 <div class="collapse row">
                     <div class="video small-12 small-centered columns">
-                        <script src="//fast.wistia.com/embed/medias/jx32ddsg7x.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_jx32ddsg7x videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/JM7hDokV6k4" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="collapse row">

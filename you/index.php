@@ -71,7 +71,7 @@
                                 <div class="circle-container">
                                     <h2>Medicare Advantage<br>Open Enrollment Is Now!</h2>
                                     <p>Educate yourself about the health insurance plans we accept and the benefits of The Villages Health and Medicare Advantage.</p>
-                                    <a class="cta-button" href="http://thevillageshealth.com/insurance">Learn More</a>
+                                    <a class="cta-button" href="http://thevillageshealth.com/info">Learn More</a>
                                 </div>
                             </div>
                         </div>
