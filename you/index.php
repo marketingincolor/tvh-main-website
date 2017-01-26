@@ -41,7 +41,7 @@
         </div>
         <div class="collapse row">
             <div class="video small-12 small-centered columns">
-                <script src="//fast.wistia.com/embed/medias/26rx2oocju.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_26rx2oocju videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5YbOsZiu6ZE" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
         <div class="row">
@@ -69,7 +69,7 @@
                         <div class="row">
                             <div class="circle-wrapper">
                                 <div class="circle-container">
-                                    <h2>Medicare Advantage<br>Open Enrollment Is Now!</h2>
+                                    <h2>Learn More About<br>Medicare Advantage</h2>
                                     <p>Educate yourself about the health insurance plans we accept and the benefits of The Villages Health and Medicare Advantage.</p>
                                     <a class="cta-button" href="http://thevillageshealth.com/info">Learn More</a>
                                 </div>

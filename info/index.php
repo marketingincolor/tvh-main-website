@@ -58,7 +58,7 @@
         </div>
         <div class="collapse row">
             <div class="video small-12 small-centered columns">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/BvV1Lk7bZB8" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DCi3HQgzqi4" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
         <div class="row">
@@ -66,8 +66,7 @@
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
                         <h1 class="orange">Make the Best Choice for You</h1>
-                        <p class="main">The revolutionary style of care that we offer at The Villages Health<sup>&reg;</sup> (TVH) puts you at the center of your own well-being and ensures you have a close relationship with your primary care doctor, timely access to care, outstanding service, and the best health outcomes. If you're a TVH patient with original Medicare and a traditional Medicare Supplemental policy, in order to remain our patient after January 1, 2017, you'll need to choose one of the Medicare Advantage plans we accept offered now during open enrollment. We hope you will take a few minutes to review some additional information that may help you decide if TVH is the right choice for your future health care needs.</p>
-                        <P class="main plus"><strong>To get more information about the Medicare Advantage plans accepted by The Villages Health, contact a UnitedHealthcare licensed insurance agent or visit one of the following locations.</strong></p>
+                        <p class="main">The revolutionary style of care that we offer at The Villages Health<sup>&reg;</sup> (TVH) puts you at the center of your own well-being and ensures you have a close relationship with your primary care doctor, timely access to care, outstanding service, and the best health outcomes. We are currently accepting new patients but please note: if you are eligible for Medicare, we do require you to have one of the United Healthcare<sup>&reg;</sup> Medicare Advantage plans that we accept. We hope you will take a few minutes to review some additional information that may help you decide if TVH is the right choice for your future health care needs.</p>
                     </div>
                 </div>
 
@@ -163,8 +162,7 @@
         <div class="row">
             <div class="h4-share small-12 columns">
                 <h4>Revolutionary Care Centered on You</h4>
-                <p>We are here for you! To learn more about The Villages Health, please call <strong>352-702-3435</strong>, email <a href="mailto:info@TheVillagesHealth.com" style="color:#fff; text-decoration:underline;">info@TheVillagesHealth.com</a>, or click the button below.</p>
-                <a href="http://thevillageshealth.com" class="learn-button"><strong>Learn More</strong></a>
+                <p>We are here for you! To learn more about The Villages Health, please call <strong>352-702-3435</strong>, email <a href="mailto:info@TheVillagesHealth.com" style="color:#fff; text-decoration:underline;">info@TheVillagesHealth.com</a>, or visit <a href="http://thevillageshealth.com" style="color:#fff; text-decoration:underline;" target="_blank">The Villages Health</a>.</p>
                 <p>&nbsp;</p>
             </div>
             <div class="h3-social small-12 columns">
