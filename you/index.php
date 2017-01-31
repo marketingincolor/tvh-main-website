@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php include( 'gtm_head.php' ); ?>
+        <?php //include( '../gtm_head.php' ); ?>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta charset="utf-8">
         <title>Our World Revolves Around You</title>
@@ -27,12 +27,28 @@
             $temp.remove();
         }
         </script>
+
+        <style>
+        .video {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            padding-top: 25px;
+            height: 0;
+        }
+        .video iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        </style>
     </head>
     <body>
-        <?php include( 'gtm_body.php' ); ?>
-        <div class="expanded row">
+        <?php //include( '../gtm_body.php' ); ?>
+        <div class="row">
             <div class="logo small-12 small-centered columns align-self-middle">
-                <div class="row">
+                <div class="row collapse">
                     <div class="small-12 small-centered columns">
                         <img src="../images/tvhlp-grfx-logo.png" alt="The Villages Health">
                     </div>

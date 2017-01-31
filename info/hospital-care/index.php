@@ -68,7 +68,7 @@
                                 <div class="circle-container-blue">
                                     <br />
                                     <h2>Did you know?</h2>
-                                    <p>A Hospitalist is a physician who spends time visiting and taking care of patients in the hospital.</p>
+                                    <p>A Hospitalist is a physician who visits and takes care of patients in the hospital.</p>
                                 </div>
                             </div>
                         </div>

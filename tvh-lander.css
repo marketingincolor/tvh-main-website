@@ -34,7 +34,7 @@ button { border-radius:50%; }
 .h2-cta .each { padding:36px 0; }
 .h2-know .know-button { color: rgb(255, 255, 255); background-color: rgb(168, 80, 32); border-radius:30px; padding:0.5em 0.75em; }
 .h2-know .know-button:hover { background-color:rgb(255, 129, 61); }
-.h2-know p { line-height: 1.1 !important; font-size:1.125em !important; }
+.h2-know p { line-height: 1.3 !important; font-size:1.125em !important; }
 .h3-social { background-color: rgb(53,148,167); }
 .h3-social h3 { color: rgb(255, 255, 255); }
 .h4-share { background-color: rgb(239,247,248); }
@@ -98,6 +98,7 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
     .info .h2-cta .cta-button { vertical-align:bottom; display:inline-block; }
     .h2-cta h2, .h2-know h2 { font-size:1.125em; }
     .h2-content h2 { font-size:1.375em; padding:24px 0 0 0; }
+    .h2-know p { font-size: 1em !important; }
     .info .h2-cta h2 { font-size:1.375em; }
     .info .h2-content h2 { font-size:1.185em; }
     .h2-cta p { font-size:0.825em; }
@@ -159,7 +160,7 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
     p.more { font-size: 1.375em !important;}
     p.sub { font-size: 0.750em !important; margin-bottom:36px !important;}
     .circle-container, .circle-container-blue { width: 20.125em; height: 20.125em; margin:auto; padding:3.5em 2em; }
-    .circle-container p { margin:1.65em 0em !important; }
+    .circle-container p { margin:1.25em 0em !important; }
     .circle-container-blue p, .circle-container-blue-big p { margin:0.75em 0em !important; }
     .circle-wrapper, .circle-wrapper-blue { width: 21.125em; height: 21.125em; padding-top:8px; }
     .circle-container-blue-big { width: 24em; height: 24em; margin:auto; padding:3em; }
