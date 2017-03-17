@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php //include( '../gtm_head.php' ); ?>
+        <?php include( '../gtm_head.php' ); ?>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta charset="utf-8">
         <title>Our World Revolves Around You</title>
@@ -45,7 +45,7 @@
         </style>
     </head>
     <body>
-        <?php //include( '../gtm_body.php' ); ?>
+        <?php include( '../gtm_body.php' ); ?>
         <div class="row">
             <div class="logo small-12 small-centered columns align-self-middle">
                 <div class="row collapse">
