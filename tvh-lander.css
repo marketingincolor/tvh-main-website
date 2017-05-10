@@ -58,6 +58,7 @@ button { border-radius:50%; }
 .footer { min-height:3em;}
 .footer a, .footer a:hover { color:rgb(0, 0, 0); text-decoration:underline;}
 .orangebg { background-color: rgb(219, 104, 41); }
+.underline { text-decoration:underline !important; }
 /* Sub Page Components - share and success */
 .h1-share h1 { font-size: 1.75em !important; color: rgb(37, 102, 115) !important; }
 form {}
