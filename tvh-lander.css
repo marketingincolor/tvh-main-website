@@ -103,7 +103,7 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
     .h2-content h2 { font-size:1.375em; padding:24px 0 0 0; }
     .h2-know p { font-size: 1em !important; }
     .info .h2-cta h2 { font-size:1.375em; }
-    .info .h2-content h2 { font-size:1.185em; }
+    .info .h2-content h2 { font-size:1.5em; }
     .h2-cta p { font-size:0.825em; }
     .h2-cta .cta-button, .h4-share .share-button  { font-size:0.825em; font-weight:bold; }
     .h3-social h3 { font-size: 1.1875em; margin:2.65em 0 0.50em 0; }
