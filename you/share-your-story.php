@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php include( 'gtm_head.php' ); ?>
+        <?php include( '/gtm_head.php' ); ?>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta charset="utf-8">
         <title>Share Your Story</title>
@@ -9,22 +9,26 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.1.2/foundation.min.css" />
-        <link href="../tvh-lander.css" rel="stylesheet" type="text/css" />
+        <link href="/tvh-lander.css" rel="stylesheet" type="text/css" />
+        <style>
+            .logo { background-color:#2D7A3D; }
+            .fsSubmitButton, .fsSubmitButton:hover { background-color:#DB6829 !important; }
+        </style>
     </head>
     <body>
-        <?php include( 'gtm_body.php' ); ?>
+        <?php include( '/gtm_body.php' ); ?>
         <div class="expanded row">
             <div class="logo small-12 small-centered columns align-self-middle">
                 <div class="row">
                     <div class="small-12 small-centered columns">
-                        <img src="../images/tvhlp-grfx-logo.png" alt="The Villages Health">
+                        <img src="/images/tvhlp-grfx-logo.png" alt="The Villages Health">
                     </div>
                 </div>
             </div>
         </div>
         <div class="collapse row">
             <div class="header small-12 small-centered columns">
-                <img src="../images/tvhlp-grfx-share-img-hdr.jpg" alt="The Villages Health">
+                <img src="/images/tvhlp-grfx-share-img-hdr.jpg" alt="The Villages Health">
             </div>
         </div>
         <div class="row">

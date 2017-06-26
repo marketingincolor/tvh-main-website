@@ -15,7 +15,7 @@
     <body class="info">
         <?php include( '../gtm_body.php' ); ?>
         <div class="expanded row">
-            <div class="logo orangebg small-12 small-centered columns align-self-middle">
+            <div class="logo greenbg small-12 small-centered columns align-self-middle">
                 <div class="row">
                     <div class="small-12 small-centered columns">
                         <img src="../images/tvhlp-grfx-logo.png" alt="The Villages Health">
@@ -32,7 +32,7 @@
             <div class="h1-top small-12 small-centered columns">
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
-                        <h1 class="orange no-pad">Leading the Way in Diabetes Care</h1>
+                        <h1 class="no-pad">Leading the Way in Diabetes Care</h1>
                         <p class="main alt">If you have diabetes, the better you control it, the more likely you are to enjoy the retirement you've always dreamed about. Blindness, kidney failure, leg amputations, strokes, and heart attacks are all disabling complications of poorly controlled diabetes. That's why our diabetes program is filled with helpful tools, enabling those who suffer from diabetes to fulfill their desire to enjoy their lives. Our diabetes program is the only one in the region that's recognized by the American Diabetes Association.</p>
                         <p class="main alt">Did you know that one in three American adults, approximately 86 million Americans, have pre-diabetes? Without weight loss and moderate physical activity, 15-30 percent of individuals with pre-diabetes will develop type 2 diabetes within five years. More than 29 million Americans or approximately 9.3 percent of the population has diabetes.</p>
                         <p class="main alt">With these statistics in mind, we focused our efforts on building a comprehensive diabetes management and education program. This program not only allows patients to get the medical care they need to control their diabetes, but also teaches them how to more effectively manage their condition.</p>
@@ -113,7 +113,7 @@
             </div>
         </div>
 
-        <div class="row footer orangebg">
+        <div class="row footer greenbg">
             <div class="small-12 columns" style="color:#fff;">
                 &copy; <?php echo date("Y") ?> The Villages Health
             </div>
