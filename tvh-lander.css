@@ -59,6 +59,7 @@ button { border-radius:50%; }
 .footer a, .footer a:hover { color:rgb(0, 0, 0); text-decoration:underline;}
 .orangebg { background-color: rgb(219, 104, 41); }
 .greenbg { background-color: rgb(45, 122, 61); }
+.bluebg { background-color:rgb(53,148,167); }
 .underline { text-decoration:underline !important; }
 /* Sub Page Components - share and success */
 .h1-share h1 { font-size: 1.75em !important; color: rgb(37, 102, 115) !important; }
@@ -85,6 +86,32 @@ input, textarea { background-color: rgb(224, 224, 224) !important; border:none !
 
 .panel { padding: 1em 1em; }
 .panel h3 { font-size:1.375em !important; margin:0.5em 0 !important; }
+
+.specialty {}
+.specialty .logo { padding:20px; }
+.specialty p { line-height:1.6 !important; }
+.specialty .header h1 { font-size:26px; font-weight:300 !important; margin:1em 0em; }
+.specialty .h1-spty { text-align:left; }
+.specialty .h1-spty h2 { font-size:30px; font-weight:300 !important; margin: 2em 0 0.5em; line-height:1.4 !important; }
+.specialty .h1-spty .cta-spty { margin:0em 0em 0.5em; }
+.specialty .h2-spty { text-align:left; margin-bottom:60px; }
+.specialty .h2-spty .dr { margin:1em 0em; }
+.specialty .h2-spty .dr:last-child { margin-top:3em; }
+.specialty .h2-spty .dr .dr-pic { text-align:center; }
+.specialty .h2-spty .dr .spty-main { margin-right:2em; }
+.specialty .h2-spty h2 { font-size:23px; font-weight:300 !important; margin:0em 0em 1em 0em; line-height:1.4 !important; }
+.specialty .h3-spty {}
+.specialty .h4-spty { text-align:left; }
+.specialty .h4-spty h4 { font-size:24px; font-weight:300 !important; margin:2.125em 0em 1em 0em; }
+.specialty .h4-spty .conditions { font-size:12px; line-height:1.2; }
+.specialty .h4-spty, .specialty .h4-spty a, .specialty .h4-spty a:hover { color:#fff; }
+.specialty .header-image { background:url(./images/tvhlp-grfx-spty-ur-hdr.jpg) no-repeat top center / cover; }
+.specialty .footer-image { background:url(./images/tvhlp-grfx-spty-ur-ftr.jpg) no-repeat top center / cover; }
+.specialty .cta { color: rgb(53, 148, 167); background-color:#f5f5f2; border-radius:20px; text-align:center; margin-top:4em; padding:2em !important;}
+
+.specialty .header-image { height:364px; }
+.specialty .footer-image .learn { padding-right:3em; }
+
 /* MEDIA QUERIES */
 /* Small screens */
 @media only screen {
