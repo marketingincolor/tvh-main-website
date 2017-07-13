@@ -78,7 +78,7 @@
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
                         <h2>The Problem with the Fee-for-Service Payment Model</h2>
-                        <p class="main">Typical primary care physicians only get paid for each patient they see, so there is a tendency to see as many patients as possible to meet the costs of their practice. This model doesn’t adequately support primary care, explains surgeon Atul Gawande in <a href="http://www.newyorker.com/magazine/2017/01/23/the-heroism-of-incremental-care" target="_blank" class="orange">this <i>New Yorker</i> article</a>: "We devote vast resources to intensive, one-off procedures, while starving the kind of steady, intimate care that often helps people more." TVH's revolutionary model has been structured to make primary care a priority. Our doctors are paid a salary and have a set limit of patients they see, which is half the number that typical doctors see.</p>
+                        <p class="main">Typical primary care physicians only get paid for each patient they see, so there is a tendency to see as many patients as possible to meet the costs of their practice. This model doesn’t adequately support primary care, explains surgeon Atul Gawande in <a href="http://www.newyorker.com/magazine/2017/01/23/the-heroism-of-incremental-care" target="_blank" class="orange">this <i>New Yorker</i> article</a>: "We devote vast resources to intensive, one-off procedures, while starving the kind of steady, intimate care that often helps people more." TVH's innovative model has been structured to make primary care a priority. Our doctors are paid a salary and have a set limit of patients they see, which is half the number that typical doctors see.</p>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@
             <div class="h2-content large-12 small-centered columns">
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
-                        <h2>TVH's Revolutionary Model</h2>
+                        <h2>TVH's Innovative Model</h2>
                         <p class="main">While other practices struggle to improve their outdated business models, TVH benefits from being only five years young and creating a health system from the ground up that provides primary care as it should be: all revolving around your specific needs, all coordinated by your primary care doctor, and all conveniently located right here in our community, just a short golf car ride away.</p>
                     </div>
                 </div>
