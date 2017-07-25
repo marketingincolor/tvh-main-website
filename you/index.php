@@ -29,12 +29,12 @@
         </script>
 
         <style>
-        .you { color:rgb(51, 51, 51); }
+        .you { color:#333333; }
         .you p { text-align:left; margin-bottom:1em !important; }
         .personal-quote { font-size:1.015em !important; margin-top:.5em; text-align:center !important; }
         .personal-id { font-size:1.015em !important; font-style:italic; text-align:center !important; font-weight:bold; }
         .logo { background-color:rgb(45, 122, 61); }
-        .main a, .main a:hover { color:rgb(255, 129, 61); text-decoration:underline;}
+        .main a, .main a:hover { color:rgb(219, 104, 41); text-decoration:underline; }
         .h1-intro h1, 
         .h1-headline h1, 
         .h4-share h4, 
@@ -42,7 +42,14 @@
         .h4-like h4 { font-weight:300 !important; font-size:1.5em; padding:0em; color:rgb(0, 0, 0) !important; margin:1.25em 0em; }
         .h1-intro .rule { margin:1.5em; text-align:center; }
         .h1-intro .personal { margin:2em 0em; }
-        .h3-social, .h4-share { background-color: rgb(238, 238, 238); padding:2em 0em; }
+        .h3-social { 
+            border-right:1px solid transparent;      
+            -moz-border-image: -moz-linear-gradient(top, #eee 10%, #e2e2e2 10%, #e2e2e2 90%, #eee 90%, #eee 100% );
+            -webkit-border-image: -webkit-linear-gradient(top, #eee 10%, #e2e2e2 10%, #e2e2e2 90%, #eee 90%, #eee 100%);
+            border-image: linear-gradient(to bottom, #eee 10%, #e2e2e2 10%, #e2e2e2 90%, #eee 90%, #eee 100%); 
+            border-image-slice: 1;
+        }
+        .h3-social, .h4-share { background-color: rgb(238, 238, 238); padding:3em; }
         .h4-share .share-button { background-color:rgb(219, 104, 41); }
         .h4-share .share-button:hover { background-color:rgb(255, 129, 61); }
         .h4-like { background-color:rgb(45, 122, 61); }
@@ -57,16 +64,17 @@
         .footer-msg { background:url(../images/tvhlp-grfx-cta-img-foot-bg.jpg) no-repeat center center / cover; }
         .share-fb { background:url(../images/tvhlp-grfx-you-social-btn-fb.png) no-repeat center center / contain; }
         .share-fb:hover { background:url(../images/tvhlp-grfx-you-social-btn-fb.png) no-repeat center center / contain; }
-.share-fb:active { background:url(../images/tvhlp-grfx-social-btn-clk-fb.png) no-repeat center center / contain; }
+        .share-fb:active { background:url(../images/tvhlp-grfx-social-btn-clk-fb.png) no-repeat center center / contain; }
         .share-tw {  background:url(../images/tvhlp-grfx-you-social-btn-tw.png) no-repeat center center / contain; }
         .share-tw:hover { background:url(../images/tvhlp-grfx-you-social-btn-tw.png) no-repeat center center / contain; }
-.share-tw:active { background:url(../images/tvhlp-grfx-social-btn-clk-tw.png) no-repeat center center / contain; }
+        .share-tw:active { background:url(../images/tvhlp-grfx-social-btn-clk-tw.png) no-repeat center center / contain; }
         .share-em { background:url(../images/tvhlp-grfx-you-social-btn-em.png) no-repeat center center / contain; }
         .share-em:hover { background:url(../images/tvhlp-grfx-you-social-btn-em.png) no-repeat center center / contain; }
-.share-em:active { background:url(../images/tvhlp-grfx-social-btn-clk-em.png) no-repeat center center / contain; }
+        .share-em:active { background:url(../images/tvhlp-grfx-social-btn-clk-em.png) no-repeat center center / contain; }
         .share-li { background:url(../images/tvhlp-grfx-you-social-btn-li.png) no-repeat center center / contain; }
         .share-li:hover { background:url(../images/tvhlp-grfx-you-social-btn-li.png) no-repeat center center / contain; }
-.share-li:active { background:url(../images/tvhlp-grfx-social-btn-clk-li.png) no-repeat center center / contain; }
+        .share-li:active { background:url(../images/tvhlp-grfx-social-btn-clk-li.png) no-repeat center center / contain; }
+
         </style>
     </head>
     <body class="you">
@@ -128,11 +136,11 @@
                 <div class="collapse row">
                     <div class="small-10 small-offset-1 columns">
                         <h1 style="text-align:left; padding-top:1.5em;">See for yourself how exceptional health care can be.</h1>
-                        <p class="main">Remember your first trip to The Villages<sup>&reg;</sup>? You had to experience it first-hand to realize just how amazing this community is. We'd like you to experience The Villages Health in person, too, with a tour of one of our seven Care Centers. To schedule your personal tour, please call 352-702-3435.</p>
+                        <p class="main">Remember your first trip to The Villages<sup>&reg;</sup>? You had to experience it first-hand to realize just how amazing this community is. We'd like you to experience The Villages Health in person, too, with a tour of one of our seven Care Centers. <b>To schedule your personal tour, please call 352-702-3435.</b></p>
                         <h1 style="text-align:left;">Exceptional care that gives you your best chance at enjoying good health – and the good life, right here in The Villages<sup>&reg;</sup>.</h1>
                         <p class="main">Discover health care the way it was meant to be. Where your appointments are right on schedule and your doctor greets you by name, treats you as a friend, and spends focused time with you. Our primary care doctors thrive on serving a limited number of patients, so they can get to know you well. And it’s all just a golf car ride away, here in your very own hometown.</p>
                         <p class="main">As the largest health care group in the Tri-County area with more than 60 board-certified doctors, we’re passionate about making a positive difference in your life. It's why we've been ranked in the top 1% of U.S. health systems.* Your primary care doctor will oversee every aspect of your care, including working closely with our highly qualified specialists in audiology, cardiology, dermatology, endocrinology, gastroenterology, general surgery, gynecology, orthopaedics, neurology, rheumatology, and urology. (You don't have to be a primary care patient to see our specialists.)</p>
-                        <p class="main"><a href="http://thevillageshealth.com/primarycare/" target="_blank">By thinking outside of the traditional health care box</a>, we're able to provide superior preventive care, diagnosis, and treatment. Our efficient and integrated health care system allows us to provide better health outcomes and an unprecedented care experience for our patients&mdash;often at a lower cost. So whether you’re managing chronic conditions or facing serious health issues, we're here to protect your greatest wealth: your health. </p>
+                        <p class="main"><a href="http://thevillageshealth.com/primarycare/" target="_blank" style="font-weight:bold;">By thinking outside of the traditional health care box</a>, we're able to provide superior preventive care, diagnosis, and treatment. Our efficient and integrated health care system allows us to provide better health outcomes and an unprecedented care experience for our patients&mdash;often at a lower cost. So whether you’re managing chronic conditions or facing serious health issues, we're here to protect your greatest wealth: your health. </p>
                         <p class="sub">*Source: UnitedHealthcare measured the performance of The Villages Health with The Healthcare Effectiveness Data and Information Set (HEDIS), a tool developed by the National Committee for Quality Assurance (NCQA) that’s used by more than 90 percent of America's health plans to measure the level of care and service.</p>
                     </div>
                 </div>
@@ -142,8 +150,8 @@
         </div>
 
 
-        <div class="row">
-            <div class="h1-intro small-12 small-centered columns">
+        <div class="row h1-intro">
+            <div class="small-12 small-centered columns">
                 <div class="rule collapse row">
                     <div class="small-10 small-offset-1 columns">
                         <hr>
@@ -202,7 +210,7 @@
             </div>
             <div class="h4-share small-12 large-6 columns" data-equalizer-watch>
                 <h4>Share Your Story</h4>
-                <p>We love hearing how our revolutionary health care model makes a difference for those we serve. Tell us why you enjoy being a patient of The Villages Health.</p>
+                <p style="text-align:center;">Already a patient? We’ve heard from so many satisfied patients but we want to hear your story, too!</p>
                 <a href="share-your-story" class="share-button">Share</a>
                 <p>&nbsp;</p>
             </div>
